@@ -56,7 +56,7 @@ def generate_railimg(nodes):
         img = Image.open(BytesIO(response.content))
         w, h = img.size
         margin = 20
-        img.crop((margin, margin, w - margin, h - margin)).save("dataset/rail"+str(counter).zfill(5)+".png", "png")
+        img.crop((0, 0, w - margin, h - margin)).save("dataset/rail"+str(counter).zfill(5)+".png", "png")
         counter+=1
         print("rail"+str(counter).zfill(5)+".png generated")
 
@@ -84,8 +84,8 @@ def generate_nonrailimg(nodes,quantity, lat_1, lng_1, lat_2, lng_2, rng):
             )
         img = Image.open(BytesIO(response.content))
         w, h = img.size
-        margin = 25
-        img.crop((margin, margin, w - margin, h - margin)).save("dataset/nonrail" + str(counter).zfill(5) + ".png", "png")
+        margin = 20
+        img.crop((0, 0, w - margin, h - margin)).save("dataset/nonrail" + str(counter).zfill(5) + ".png", "png")
         counter+=1
         print("nonrail"+str(counter).zfill(5)+".png generated")
 
