@@ -84,7 +84,7 @@ if __name__ == "__main__":
                          optimizer=keras.optimizers.Adam(lr=1e-3),
                          metrics=['accuracy'])
 
-    resnet_model.fit(x=train_img, y=train_label, batch_size=64, epochs=80,
+    resnet_model.fit(x=train_img, y=train_label, batch_size=64, epochs=10,
                      verbose=1, callbacks=None, validation_split=0.1)
 
     resnet_model.summary()
