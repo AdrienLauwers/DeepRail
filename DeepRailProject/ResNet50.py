@@ -34,8 +34,8 @@ def get_data():
     train_dir = os.path.join(PATH, 'all')
     train_rail_dir = os.path.join(train_dir, 'rail')
     train_nonrail_dir = os.path.join(train_dir, 'nonrail')
-    train_rail_size = len(os.listdir(train_rail_dir))
-    train_nonrail_size = len(os.listdir(train_nonrail_dir))
+    # train_rail_size = len(os.listdir(train_rail_dir))
+    # train_nonrail_size = len(os.listdir(train_nonrail_dir))
 
     train_images = []
 
