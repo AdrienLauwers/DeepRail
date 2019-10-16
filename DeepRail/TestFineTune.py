@@ -20,14 +20,13 @@ def get_model():
     for layer in base_model.layers:
         layer.trainable = False
 
+    x = base_model.output
+    x = GlobalAveragePooling2D(data_format='channels_last')(x)
+    x = Dense(2, activation='softmax')(x)
 
-    model = keras.Sequential([
-        base_model,
-        keras.layers.GlobalAveragePooling2D(),
-        Dense(2, activation=None)
-    ])
+    updatedModel = keras.Model(base_model.input, x)
 
-    return model
+    return updatedModel
 
 
 if __name__ == "__main__":
