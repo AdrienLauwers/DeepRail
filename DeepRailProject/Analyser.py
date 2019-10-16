@@ -22,10 +22,6 @@ if __name__ == "__main__":
 
     API_keys = get_api_key()
     API_key = API_keys["GoogleMaps"]
-    
-    print(API_keys)
-    print(API_key)
-    exit()
 
     stride = 0.000314
     mid = stride/2

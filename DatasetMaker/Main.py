@@ -4,6 +4,20 @@ import requests
 from io import BytesIO
 import math
 import random
+import os
+
+def get_api_key():
+    PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../api.txt')
+    file = open(PATH, "r")
+    lines = file.readlines()
+
+    API_keys = {}
+    for line in lines:
+        l = line.replace('\n', '').split(":")
+        API_keys[l[0]] = l[1]
+
+        return API_keys
+
 
 def get_distance(lat_1, lng_1, lat_2, lng_2):
     d_lat = lat_2 - lat_1
@@ -39,7 +53,7 @@ str(child["lat"]) + "," + str(child["lng"]) +
 "zoom=20&"
 "size=276x276&"
 "maptype=satellite&"
-"key=AIzaSyBxyQwsLszcHb5E1tpOHp_wOu2MEaYx4C8"
+"key=" + API_key
 '''
 
 def generate_railimg(nodes):
@@ -51,7 +65,7 @@ def generate_railimg(nodes):
             "zoom=20&"
             "size=276x276&"
             "maptype=satellite&"
-            "key=AIzaSyBxyQwsLszcHb5E1tpOHp_wOu2MEaYx4C8"
+            "key=" + API_key
         )
         img = Image.open(BytesIO(response.content))
         w, h = img.size
@@ -80,7 +94,7 @@ def generate_nonrailimg(nodes,quantity, lat_1, lng_1, lat_2, lng_2, rng):
             "zoom=20&"
             "size=276x276&"
             "maptype=satellite&"
-            "key=AIzaSyBxyQwsLszcHb5E1tpOHp_wOu2MEaYx4C8"
+            "key=" + API_key
             )
         img = Image.open(BytesIO(response.content))
         w, h = img.size
@@ -90,7 +104,8 @@ def generate_nonrailimg(nodes,quantity, lat_1, lng_1, lat_2, lng_2, rng):
         print("nonrail"+str(counter).zfill(5)+".png generated")
 
 
-
+API_keys = get_api_key()
+API_key = API_keys["GoogleMaps"]
 tree = ET.parse('50,4,51,5.xml')
 root = tree.getroot()
 all_nodes, selected_nodes = get_nodes(5,500,1000)
