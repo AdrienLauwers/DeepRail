@@ -16,7 +16,7 @@ def get_distance(lat_1, lng_1, lat_2, lng_2):
     )
     return 6373.0 * (2 * math.atan2(math.sqrt(temp), math.sqrt(1 - temp)))
 
-def get_nodes(stride,quantity):
+def get_nodes(stride,quantity,decallage):
     counter = 0
     selected_nodes = []
     all_nodes = []
@@ -25,10 +25,10 @@ def get_nodes(stride,quantity):
             lat = child.attrib['lat']
             long = child.attrib['lon']
             all_nodes.append({"lat": float(lat), "lng": float(long)})
-            if counter%stride == 0:
+            if counter%stride == 0 and counter > decallage*stride :
                 selected_nodes.append({"lat": float(lat), "lng": float(long)})
             counter += 1
-            if counter > quantity*stride :
+            if counter > (quantity + decallage) * stride :
                 break
     print(str(len(all_nodes)) + " positions found.\n"+str(len(selected_nodes))+" positions selected.")
     return all_nodes,selected_nodes
@@ -93,7 +93,7 @@ def generate_nonrailimg(nodes,quantity, lat_1, lng_1, lat_2, lng_2, rng):
 
 tree = ET.parse('50,4,51,5.xml')
 root = tree.getroot()
-all_nodes, selected_nodes = get_nodes(5,500)
-#generate_railimg(selected_nodes)
-generate_nonrailimg(all_nodes,1000,50,4,51,5,1)
+all_nodes, selected_nodes = get_nodes(5,500,1000)
+generate_railimg(selected_nodes)
+#generate_nonrailimg(all_nodes,1000,50,4,51,5,0.05)
 
