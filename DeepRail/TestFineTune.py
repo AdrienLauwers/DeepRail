@@ -88,7 +88,7 @@ if __name__ == "__main__":
     resnet_model = get_model()
     train_img, train_label = get_data()
 
-    init_epoch = 10
+    init_epoch = 1
     fine_tune_epochs = 10
     total_epoch = init_epoch + fine_tune_epochs
     lr = 1e-3
@@ -98,7 +98,7 @@ if __name__ == "__main__":
                          metrics=['accuracy'])
     resnet_model.summary()
     history = resnet_model.fit(x=train_img, y=train_label, batch_size=64, epochs=init_epoch, verbose=1, callbacks=None, validation_split=0.1)
-
+    print(history.history)
     acc = history.history['accuracy']
     val_acc = history.history['val_accuracy']
     loss = history.history['loss']
