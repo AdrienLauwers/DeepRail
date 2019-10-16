@@ -1,10 +1,10 @@
 import keras
+from keras import Input
+from keras.layers import GlobalAveragePooling2D, Dense
+from keras.applications import resnet50
 import numpy as np
 import os
-from keras.applications import resnet50
-from keras.preprocessing.image import load_img
-from keras.preprocessing.image import img_to_array
-from keras.applications.imagenet_utils import decode_predictions
+
 import cv2
 import matplotlib.pyplot as plt
 
@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 
 def get_model():
-    input_tensor = keras.Input(shape=(224, 224, 3))  # this assumes K.image_data_format() == 'channels_last'
+    input_tensor = Input(shape=(224, 224, 3))  # this assumes K.image_data_format() == 'channels_last'
 
     # create the base pre-trained model
     base_model = resnet50.ResNet50(input_tensor=input_tensor, weights='imagenet', include_top=False)
@@ -21,8 +21,8 @@ def get_model():
         layer.trainable = False
 
     x = base_model.output
-    x = keras.layers.GlobalAveragePooling2D(data_format='channels_last')(x)
-    x = keras.layers.Dense(2, activation='softmax')(x)
+    x = GlobalAveragePooling2D(data_format='channels_last')(x)
+    x = Dense(2, activation='softmax')(x)
 
     updatedModel = keras.Model(base_model.input, x)
 
@@ -37,16 +37,9 @@ if __name__ == "__main__":
     train_dir = os.path.join(PATH, 'all')
     train_rail_dir = os.path.join(train_dir, 'rail')
     train_nonrail_dir = os.path.join(train_dir, 'nonrail')
-
     train_rail_size = len(os.listdir(train_rail_dir))
     train_nonrail_size = len(os.listdir(train_nonrail_dir))
 
-    # validation_dir = os.path.join(PATH, 'validation')
-    # validation_rail_dir = os.path.join(train_dir, 'rail')
-    # validation_nonrail_dir = os.path.join(train_dir, 'nonrail')
-
-    # validation_rail_size = len(os.listdir(validation_rail_dir))
-    # validation_nonrail_size = len(os.listdir(validation_nonrail_dir))
 
     train_images = []
 
@@ -65,7 +58,6 @@ if __name__ == "__main__":
     train_img = np.array([i[0] for i in train_images]).reshape(-1, 224, 224, 3)
     train_label = np.array([i[1] for i in train_images])
 
-    print(len(train_images))
 
     # filename = os.path.join(train_rail_dir, 'rail00000.png')
 
