@@ -37,7 +37,6 @@ def get_data():
     train_rail_size = len(os.listdir(train_rail_dir))
     train_nonrail_size = len(os.listdir(train_nonrail_dir))
 
-
     train_images = []
 
     for i in tqdm(os.listdir(train_rail_dir)):
@@ -56,21 +55,35 @@ def get_data():
     train_label = np.array([i[1] for i in train_images])
     return train_img, train_label
 
+def unfreeze(model):
+    model.trainable = True
+    fine_tune_at = 100
+    for layer in model.layers[:fine_tune_at]:
+        layer.trainable = False
+    return model
+
 if __name__ == "__main__":
     resnet_model = get_model()
     train_img, train_label = get_data()
 
     init_epoch = 10
+    fine_tune_epochs = 10
+    total_epoch = init_epoch + fine_tune_epochs
     lr = 1e-3
 
     resnet_model.compile(loss=keras.losses.categorical_crossentropy,
                          optimizer=keras.optimizers.Adam(lr=lr),
                          metrics=['accuracy'])
-
-
+    model.summary()
     resnet_model.fit(x=train_img, y=train_label, batch_size=64, epochs=init_epoch, verbose=1, callbacks=None, validation_split=0.1)
 
-    resnet_model.summary()
+    resnet_model = unfreeze(resnet_model)
+    resnet_model.compile(loss=keras.losses.categorical_crossentropy,
+                         optimizer=keras.optimizers.Adam(lr=lr/10),
+                         metrics=['accuracy'])
+    model.summary()
+    resnet_model.fit(x=train_img, y=train_label, batch_size=64, epochs=total_epoch, initial_epoch= init_epoch, verbose=1, callbacks=None,
+                     validation_split=0.1)
 
     '''
     model_json = resnet_model.to_json()
