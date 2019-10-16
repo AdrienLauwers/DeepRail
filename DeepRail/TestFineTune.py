@@ -62,6 +62,28 @@ def unfreeze(model):
         layer.trainable = False
     return model
 
+def showStat(acc,val_acc,loss,val_loss,initial_epochs):
+    plt.figure(figsize=(8, 8))
+    plt.subplot(2, 1, 1)
+    plt.plot(acc, label='Training Accuracy')
+    plt.plot(val_acc, label='Validation Accuracy')
+    plt.ylim([0.8, 1])
+    plt.plot([initial_epochs - 1, initial_epochs - 1],
+             plt.ylim(), label='Start Fine Tuning')
+    plt.legend(loc='lower right')
+    plt.title('Training and Validation Accuracy')
+
+    plt.subplot(2, 1, 2)
+    plt.plot(loss, label='Training Loss')
+    plt.plot(val_loss, label='Validation Loss')
+    plt.ylim([0, 1.0])
+    plt.plot([initial_epochs - 1, initial_epochs - 1],
+             plt.ylim(), label='Start Fine Tuning')
+    plt.legend(loc='upper right')
+    plt.title('Training and Validation Loss')
+    plt.xlabel('epoch')
+    plt.show()
+
 if __name__ == "__main__":
     resnet_model = get_model()
     train_img, train_label = get_data()
@@ -74,17 +96,28 @@ if __name__ == "__main__":
     resnet_model.compile(loss=keras.losses.categorical_crossentropy,
                          optimizer=keras.optimizers.Adam(lr=lr),
                          metrics=['accuracy'])
-    model.summary()
-    resnet_model.fit(x=train_img, y=train_label, batch_size=64, epochs=init_epoch, verbose=1, callbacks=None, validation_split=0.1)
+    resnet_model.summary()
+    history = resnet_model.fit(x=train_img, y=train_label, batch_size=64, epochs=init_epoch, verbose=1, callbacks=None, validation_split=0.1)
+
+    acc = history.history['accuracy']
+    val_acc = history.history['val_accuracy']
+    loss = history.history['loss']
+    val_loss = history.history['val_loss']
 
     resnet_model = unfreeze(resnet_model)
     resnet_model.compile(loss=keras.losses.categorical_crossentropy,
                          optimizer=keras.optimizers.Adam(lr=lr/10),
                          metrics=['accuracy'])
-    model.summary()
-    resnet_model.fit(x=train_img, y=train_label, batch_size=64, epochs=total_epoch, initial_epoch= init_epoch, verbose=1, callbacks=None,
+    resnet_model.summary()
+    history_fine = resnet_model.fit(x=train_img, y=train_label, batch_size=64, epochs=total_epoch, initial_epoch= init_epoch, verbose=1, callbacks=None,
                      validation_split=0.1)
+    acc += history_fine.history['accuracy']
+    val_acc += history_fine.history['val_accuracy']
 
+    loss += history_fine.history['loss']
+    val_loss += history_fine.history['val_loss']
+
+    showStat(acc,val_acc,loss,val_loss, init_epoch)
     '''
     model_json = resnet_model.to_json()
     with open("model.json", "w") as json_file:
