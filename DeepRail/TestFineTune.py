@@ -20,27 +20,17 @@ def get_model():
     for layer in base_model.layers:
         layer.trainable = False
 
-    #x = base_model.output
-    #x = GlobalAveragePooling2D(data_format='channels_last')(x)
-    #x = Dense(2, activation='softmax')(x)
-
-
     model = keras.Sequential([
         base_model,
         keras.layers.GlobalAveragePooling2D(),
         Dense(2, activation='softmax')
     ])
-
-    #updatedModel = keras.Model(base_model.input, x)
-
     return model
 
 
-if __name__ == "__main__":
-    resnet_model = get_model()
+def get_data():
 
     PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'dataset')
-
     train_dir = os.path.join(PATH, 'all')
     train_rail_dir = os.path.join(train_dir, 'rail')
     train_nonrail_dir = os.path.join(train_dir, 'nonrail')
@@ -64,42 +54,29 @@ if __name__ == "__main__":
 
     train_img = np.array([i[0] for i in train_images]).reshape(-1, 224, 224, 3)
     train_label = np.array([i[1] for i in train_images])
+    return train_img, train_label
 
+if __name__ == "__main__":
+    resnet_model = get_model()
+    train_img, train_label = get_data()
 
-    # filename = os.path.join(train_rail_dir, 'rail00000.png')
-
-    # load an image in PIL format
-    # original_image = load_img(filename, target_size=(224, 224))
-    # convert the PIL image (width, height) to a NumPy array (height, width, channel)
-    # numpy_image = img_to_array(original_image)
-    # Convert the image into 4D Tensor (samples, height, width, channels) by adding an extra dimension to the axis 0.
-    # input_image = np.expand_dims(numpy_image, axis=0)
-
-    # print('PIL image size = ', original_image.size)
-    # print('NumPy image size = ', numpy_image.shape)
-    # print('Input image size = ', input_image.shape)
-    # plt.imshow(np.uint8(input_image[0]))
-    # plt.show()
-
-    # processed_image_resnet50 = resnet50.preprocess_input(input_image.copy())
-
-    # predictions_resnet50 = resnet_model.predict(processed_image_resnet50)
-    # label_resnet50 = decode_predictions(predictions_resnet50)
-    # print('label_resnet50 = ', label_resnet50)
+    init_epoch = 10
+    lr = 1e-3
 
     resnet_model.compile(loss=keras.losses.categorical_crossentropy,
-                         optimizer=keras.optimizers.Adam(lr=1e-3),
+                         optimizer=keras.optimizers.Adam(lr=lr),
                          metrics=['accuracy'])
 
-    resnet_model.fit(x=train_img, y=train_label, batch_size=64, epochs=10,
-                     verbose=1, callbacks=None, validation_split=0.1)
+
+    resnet_model.fit(x=train_img, y=train_label, batch_size=64, epochs=init_epoch, verbose=1, callbacks=None, validation_split=0.1)
 
     resnet_model.summary()
 
-    # serialize model to JSON
+    '''
     model_json = resnet_model.to_json()
     with open("model.json", "w") as json_file:
         json_file.write(resnet_model)
     # serialize weights to HDF5
     resnet_model.save_weights("model.h5")
     print("Saved model to disk")
+    '''
