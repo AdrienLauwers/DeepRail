@@ -96,3 +96,4 @@ if __name__ == "__main__":
     # serialize weights to HDF5
     resnet_model.save_weights("model.h5")
     print("Saved model to disk")
+
