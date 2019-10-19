@@ -6,14 +6,14 @@ from PIL import Image
 def crop_orig(pixel_crop, images_dir):
     print("Croping original files")
     for i in tqdm(os.listdir(images_dir)):
+
         img_path = os.path.join(images_dir, i)
-        if os.path.isdir(img_path): 
+        if os.path.isdir(img_path):
             continue
         img = Image.open(img_path, "r")
         w, h = img.size
         im = img.crop((pixel_crop, pixel_crop, w - pixel_crop, h - pixel_crop))
         im.save("../DeepRailDataset/DOTA/part3/cropped/" + i, "PNG")
-
     return
 
 def make_tiles(width, height, images_dir):

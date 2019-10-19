@@ -65,7 +65,7 @@ def generate_railimg(nodes):
             "https://maps.googleapis.com/maps/api/staticmap?"
             "center=" +strCoord+ "&"
             "zoom="+str(ZOOM)+"&"
-            "size="+str(int(GLOBALSIZE))+"x"+str(int(GLOBALSIZE))+"&"
+            "size="+str(int(GLOBALSIZECROP))+"x"+str(int(GLOBALSIZECROP))+"&"
             "maptype=satellite&"
             "key="+str(API_key)
         )
@@ -73,11 +73,11 @@ def generate_railimg(nodes):
         w, h = img.size
 
         #img.crop((0, 0, w - MARGIN, h - MARGIN)).save("dataset/rail/brut" + str(counter).zfill(5) + ".png", "png")
-        img.crop((0, 0, w - (CROPSIZE+MARGIN), h - (CROPSIZE+MARGIN))).save("dataset/rail/HG-" + strCoord + ".png", "png")
-        img.crop((CROPSIZE, 0,  w - (MARGIN), h - (CROPSIZE+MARGIN))).save("dataset/rail/HD-" + strCoord + ".png", "png")
-        img.crop((0, CROPSIZE, w - (CROPSIZE+MARGIN), h - ( MARGIN))).save("dataset/rail/BG-" + strCoord + ".png", "png")
-        img.crop((CROPSIZE, CROPSIZE, w - (MARGIN), h - (MARGIN))).save("dataset/rail/BD-" + strCoord + ".png", "png")
-        img.crop((CROPSIZE/2, CROPSIZE/2, w - (CROPSIZE/2 + MARGIN), h - (CROPSIZE/2 + MARGIN))).save("dataset/rail/MI-" + strCoord + ".png", "png")
+        img.crop((0, 0, w - (CROPSIZE+MARGIN), h - (CROPSIZE+MARGIN))).save("../datagen/nonrail//HG-" + strCoord + ".png", "png")
+        img.crop((CROPSIZE, 0,  w - (MARGIN), h - (CROPSIZE+MARGIN))).save("../datagen/nonrail//HD-" + strCoord + ".png", "png")
+        img.crop((0, CROPSIZE, w - (CROPSIZE+MARGIN), h - ( MARGIN))).save("../datagen/nonrail//BG-" + strCoord + ".png", "png")
+        img.crop((CROPSIZE, CROPSIZE, w - (MARGIN), h - (MARGIN))).save("../datagen/nonrail//BD-" + strCoord + ".png", "png")
+        img.crop((CROPSIZE/2, CROPSIZE/2, w - (CROPSIZE/2 + MARGIN), h - (CROPSIZE/2 + MARGIN))).save("../datagen/nonrail//MI-" + strCoord + ".png", "png")
         counter+=1
         print("rail"+strCoord+".png generated")
 
@@ -88,50 +88,63 @@ def generate_nonrailimg(nodes):
         lat = 0
         lng = 0
         while not found :
-            lat = LAT_SOURCE + ((random.random()-0.5) / 100)
-            lng = LNG_SOURCE + ((random.random()-0.5) / 100)
+            lat = LAT_SOURCE + ((random.random()-0.5) / 10)
+            lng = LNG_SOURCE + ((random.random()-0.5) / 10)
             found = True
             for child in nodes:
-                if get_distance(lat, lng, child["lat"], child["lng"]) < GLOBALSIZE:
+                if get_distance(lat, lng, child["lat"], child["lng"]) < DISTANCE_RAIL:
                     found = False
         strCoord = str(lat) + "," + str(lng)
         response = requests.get(
             "https://maps.googleapis.com/maps/api/staticmap?"
             "center=" + strCoord + "&"
             "zoom=" + str(ZOOM) + "&"
-            "size=" + str(int(SIZE)) + "x" + str(int(SIZE)) + "&"
+            "size=" + str(int(GLOBALSIZECROP)) + "x" + str(int(GLOBALSIZECROP)) + "&"
             "maptype=satellite&"
             "key=" + str(API_key)
         )
         img = Image.open(BytesIO(response.content))
         w, h = img.size
-        img.crop((0, 0, w - MARGIN, h - MARGIN)).save("dataset/nonrail/" + strCoord + ".png", "png")
+        img.crop((0, 0, w - (CROPSIZE + MARGIN), h - (CROPSIZE + MARGIN))).save("../datagen/verif//HG-" + strCoord + ".png", "png")
+        img.crop((CROPSIZE, 0, w - (MARGIN), h - (CROPSIZE + MARGIN))).save("../datagen/verif//HD-" + strCoord + ".png", "png")
+        img.crop((0, CROPSIZE, w - (CROPSIZE + MARGIN), h - (MARGIN))).save("../datagen/verif//BG-" + strCoord + ".png", "png")
+        img.crop((CROPSIZE, CROPSIZE, w - (MARGIN), h - (MARGIN))).save("../datagen/verif//BD-" + strCoord + ".png","png")
+        img.crop((CROPSIZE / 2, CROPSIZE / 2, w - (CROPSIZE / 2 + MARGIN), h - (CROPSIZE / 2 + MARGIN))).save("../datagen/verif//MI-" + strCoord + ".png", "png")
         counter+=1
         print("nonrail"+strCoord+".png generated")
 
 #Global param
 SIZE = 256
-ZOOM = 21
+ZOOM = 20
 MARGIN = 20
-QUANTITY = 10 #float('inf')
+QUANTITY = 1000 #float('inf')
 
 #rail
 STRIDE = 2
 OFFSET = 0
 
 #non rail
-DISTANCE_RAIL = 0.05
-LAT_SOURCE = 50.409
-LNG_SOURCE = 4.4404
+DISTANCE_RAIL = 0.5
+LAT_SOURCE = 50.8502
+LNG_SOURCE = 4.3416
 
-CROPSIZE = SIZE/2
-GLOBALSIZE = SIZE+CROPSIZE+MARGIN
+# Charleroi 50.4097 4.4404
+# Bruxelles 50.8502 4.3416
+
+# Namur 50.4716 4.8631
+# Mons 50.4539 3.9476
+# La Louv 50.4725  4.1869
+# Antwerpen 51.2008 4.413
+# Liège 50.6373 5.5716
+CROPSIZE = SIZE
+GLOBALSIZE = SIZE+MARGIN
+GLOBALSIZECROP =GLOBALSIZE+CROPSIZE
 
 API_keys = get_api_key()
 API_key = API_keys["GoogleMaps"]
-tree = ET.parse('50,4,51,5.xml')
+tree = ET.parse('../coords/50,4,51,5.xml')
 root = tree.getroot()
 all_nodes, selected_nodes = get_nodes()
-#generate_railimg(selected_nodes, GLOBALSIZE, CROPSIZE)
+#generate_railimg(selected_nodes)
 generate_nonrailimg(all_nodes)
 
