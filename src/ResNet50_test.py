@@ -1,9 +1,12 @@
 import keras
+from keras import Input
+from keras.layers import GlobalAveragePooling2D, Dense
+from keras.applications import resnet50
 import numpy as np
 import os
-from tqdm import tqdm
 import cv2
-import random
+import matplotlib.pyplot as plt
+from tqdm import tqdm
 
 # load json and create model
 json_file = open('resnet50_model.json', 'r')

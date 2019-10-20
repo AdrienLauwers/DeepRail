@@ -73,11 +73,11 @@ def generate_railimg(nodes):
         w, h = img.size
 
         #img.crop((0, 0, w - MARGIN, h - MARGIN)).save("dataset/rail/brut" + str(counter).zfill(5) + ".png", "png")
-        img.crop((0, 0, w - (CROPSIZE+MARGIN), h - (CROPSIZE+MARGIN))).save("../datagen/nonrail//HG-" + strCoord + ".png", "png")
-        img.crop((CROPSIZE, 0,  w - (MARGIN), h - (CROPSIZE+MARGIN))).save("../datagen/nonrail//HD-" + strCoord + ".png", "png")
-        img.crop((0, CROPSIZE, w - (CROPSIZE+MARGIN), h - ( MARGIN))).save("../datagen/nonrail//BG-" + strCoord + ".png", "png")
-        img.crop((CROPSIZE, CROPSIZE, w - (MARGIN), h - (MARGIN))).save("../datagen/nonrail//BD-" + strCoord + ".png", "png")
-        img.crop((CROPSIZE/2, CROPSIZE/2, w - (CROPSIZE/2 + MARGIN), h - (CROPSIZE/2 + MARGIN))).save("../datagen/nonrail//MI-" + strCoord + ".png", "png")
+        img.crop((0, 0, w - (CROPSIZE+MARGIN), h - (CROPSIZE+MARGIN))).save("../datagen/verif//HG-" + strCoord + ".png", "png")
+        img.crop((CROPSIZE, 0,  w - (MARGIN), h - (CROPSIZE+MARGIN))).save("../datagen/verif//HD-" + strCoord + ".png", "png")
+        img.crop((0, CROPSIZE, w - (CROPSIZE+MARGIN), h - ( MARGIN))).save("../datagen/verif//BG-" + strCoord + ".png", "png")
+        img.crop((CROPSIZE, CROPSIZE, w - (MARGIN), h - (MARGIN))).save("../datagen/verif//BD-" + strCoord + ".png", "png")
+        img.crop((CROPSIZE/2, CROPSIZE/2, w - (CROPSIZE/2 + MARGIN), h - (CROPSIZE/2 + MARGIN))).save("../datagen/verif//MI-" + strCoord + ".png", "png")
         counter+=1
         print("rail"+strCoord+".png generated")
 
@@ -117,34 +117,35 @@ def generate_nonrailimg(nodes):
 SIZE = 256
 ZOOM = 20
 MARGIN = 20
-QUANTITY = 1000 #float('inf')
+QUANTITY = 10000 #float('inf')
 
 #rail
-STRIDE = 2
+STRIDE = 8
 OFFSET = 0
 
 #non rail
 DISTANCE_RAIL = 0.5
-LAT_SOURCE = 50.8502
-LNG_SOURCE = 4.3416
+LAT_SOURCE = 51.2008
+LNG_SOURCE = 4.413
 
 # Charleroi 50.4097 4.4404
 # Bruxelles 50.8502 4.3416
+# Antwerpen 51.2008 4.413
 
 # Namur 50.4716 4.8631
 # Mons 50.4539 3.9476
 # La Louv 50.4725  4.1869
-# Antwerpen 51.2008 4.413
+
 # Liège 50.6373 5.5716
-CROPSIZE = SIZE
+CROPSIZE = SIZE/2
 GLOBALSIZE = SIZE+MARGIN
 GLOBALSIZECROP =GLOBALSIZE+CROPSIZE
 
 API_keys = get_api_key()
 API_key = API_keys["GoogleMaps"]
-tree = ET.parse('../coords/50,4,51,5.xml')
+tree = ET.parse('../coords/romeRail.xml')
 root = tree.getroot()
 all_nodes, selected_nodes = get_nodes()
-#generate_railimg(selected_nodes)
-generate_nonrailimg(all_nodes)
+generate_railimg(selected_nodes)
+#generate_nonrailimg(all_nodes)
 

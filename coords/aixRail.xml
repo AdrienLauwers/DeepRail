@@ -1,0 +1,4159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2019-10-19T16:29:02Z"/>
+
+  <way id="23984413">
+    <nd ref="270923979"/>
+    <nd ref="270925188"/>
+    <nd ref="270925189"/>
+    <nd ref="270925190"/>
+    <nd ref="270925191"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="23984418">
+    <nd ref="260037599"/>
+    <nd ref="309452081"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="23984419">
+    <nd ref="260037614"/>
+    <nd ref="4089960408"/>
+    <nd ref="4089960405"/>
+    <nd ref="260037613"/>
+    <nd ref="4089960409"/>
+    <nd ref="4089960406"/>
+    <nd ref="4089960411"/>
+    <nd ref="260037598"/>
+    <nd ref="2265046209"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="23984420">
+    <nd ref="260037621"/>
+    <nd ref="260037620"/>
+    <nd ref="260037619"/>
+    <nd ref="260037618"/>
+    <nd ref="260037617"/>
+    <nd ref="260037616"/>
+    <nd ref="260037615"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="23984421">
+    <nd ref="260037622"/>
+    <nd ref="260037621"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="23984422">
+    <nd ref="260037615"/>
+    <nd ref="309451834"/>
+    <nd ref="260037614"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="23984423">
+    <nd ref="260037625"/>
+    <nd ref="260037624"/>
+    <nd ref="260037623"/>
+    <nd ref="260037622"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="23984424">
+    <nd ref="260037662"/>
+    <nd ref="260037661"/>
+    <nd ref="260037660"/>
+    <nd ref="260037659"/>
+    <nd ref="5847283569"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="23984425">
+    <nd ref="260037663"/>
+    <nd ref="260037662"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="23984426">
+    <nd ref="260037645"/>
+    <nd ref="260037644"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="23984427">
+    <nd ref="260037644"/>
+    <nd ref="260037643"/>
+    <nd ref="260037642"/>
+    <nd ref="260037641"/>
+    <nd ref="4500359200"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="23991119">
+    <nd ref="260037626"/>
+    <nd ref="260037625"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="24410804">
+    <nd ref="265015304"/>
+    <nd ref="1877971796"/>
+    <nd ref="265015305"/>
+    <nd ref="1877971795"/>
+    <nd ref="265015306"/>
+    <nd ref="265015307"/>
+    <nd ref="265015308"/>
+    <nd ref="1877971794"/>
+    <nd ref="265015309"/>
+    <nd ref="1877971793"/>
+    <nd ref="265015310"/>
+    <nd ref="265015311"/>
+    <nd ref="265015312"/>
+    <nd ref="265015313"/>
+    <nd ref="265015314"/>
+    <nd ref="1877971792"/>
+    <nd ref="265015315"/>
+    <nd ref="265015316"/>
+    <nd ref="1877971791"/>
+    <nd ref="1877971790"/>
+    <nd ref="1877971789"/>
+    <nd ref="265015317"/>
+    <nd ref="1877971788"/>
+    <nd ref="1877971787"/>
+    <nd ref="265015318"/>
+    <nd ref="1877971786"/>
+    <nd ref="265015319"/>
+    <nd ref="265015320"/>
+    <nd ref="1877971785"/>
+    <nd ref="265015321"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="24428402">
+    <nd ref="265014985"/>
+    <nd ref="265015304"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="-1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="name:tunnel" v="Tunnel des Figons"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="tunnel" v="yes"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="24931242">
+    <nd ref="270923979"/>
+    <nd ref="1962012530"/>
+    <nd ref="270923980"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="26237275">
+    <nd ref="265015303"/>
+    <nd ref="260037599"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="27153045">
+    <nd ref="297917614"/>
+    <nd ref="5498812417"/>
+    <nd ref="1042604964"/>
+    <nd ref="5498812416"/>
+    <nd ref="297917711"/>
+    <nd ref="297917789"/>
+    <nd ref="297917790"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+  </way>
+  <way id="27153046">
+    <nd ref="298266911"/>
+    <nd ref="298266910"/>
+    <nd ref="298266908"/>
+    <nd ref="5498812415"/>
+    <nd ref="5498812416"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+  </way>
+  <way id="27153059">
+    <nd ref="297917614"/>
+    <nd ref="1042604927"/>
+    <nd ref="297917850"/>
+    <nd ref="1042604878"/>
+    <nd ref="297917932"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+  </way>
+  <way id="27153064">
+    <nd ref="297917932"/>
+    <nd ref="297917923"/>
+    <nd ref="297917924"/>
+    <nd ref="297917925"/>
+    <nd ref="297917945"/>
+    <nd ref="297917927"/>
+    <nd ref="297917946"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+  </way>
+  <way id="27153077">
+    <nd ref="1042604964"/>
+    <nd ref="297918180"/>
+    <nd ref="297918197"/>
+    <nd ref="298266904"/>
+    <nd ref="298266905"/>
+    <nd ref="298266907"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+  </way>
+  <way id="27183098">
+    <nd ref="297917711"/>
+    <nd ref="297917785"/>
+    <nd ref="298266913"/>
+    <nd ref="298266914"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+  </way>
+  <way id="27296105">
+    <nd ref="299650504"/>
+    <nd ref="5842445453"/>
+    <nd ref="299650505"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="27296106">
+    <nd ref="299650505"/>
+    <nd ref="298008324"/>
+    <nd ref="4108454771"/>
+    <nd ref="298008325"/>
+    <nd ref="304002567"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="27327630">
+    <nd ref="260037606"/>
+    <nd ref="2494360388"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="-1"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="3"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="tunnel" v="yes"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="27327631">
+    <nd ref="299981353"/>
+    <nd ref="2494360385"/>
+    <nd ref="299981354"/>
+    <nd ref="2494360367"/>
+    <nd ref="299981355"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="905000"/>
+    <tag k="service" v="siding"/>
+  </way>
+  <way id="27327983">
+    <nd ref="260037606"/>
+    <nd ref="260037607"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="-1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="3"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="2"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="tunnel" v="yes"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="27327984">
+    <nd ref="260037607"/>
+    <nd ref="260037608"/>
+    <nd ref="260037609"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="4"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="2"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="27582427">
+    <nd ref="302861871"/>
+    <nd ref="265015398"/>
+    <nd ref="302861872"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="27582437">
+    <nd ref="302861872"/>
+    <nd ref="265015399"/>
+    <nd ref="1837998140"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="27632396">
+    <nd ref="303488373"/>
+    <nd ref="298006529"/>
+    <nd ref="298006531"/>
+    <nd ref="303500636"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="27632397">
+    <nd ref="303488375"/>
+    <nd ref="303488373"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="27633785">
+    <nd ref="298006586"/>
+    <nd ref="303511031"/>
+    <nd ref="303511032"/>
+    <nd ref="303511033"/>
+    <nd ref="1147133171"/>
+    <nd ref="303511034"/>
+    <nd ref="303511035"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Ligne Carnoules - Gardanne"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="947000"/>
+    <tag k="usage" v="tourism"/>
+  </way>
+  <way id="27638815">
+    <nd ref="303507746"/>
+    <nd ref="298006583"/>
+    <nd ref="2494947002"/>
+    <nd ref="298008462"/>
+    <nd ref="298006586"/>
+    <nd ref="1147133078"/>
+    <nd ref="1147133063"/>
+    <nd ref="1147133040"/>
+    <nd ref="298008464"/>
+    <nd ref="1147133113"/>
+    <nd ref="298008465"/>
+    <nd ref="303554221"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="forward"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="1"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="27681185">
+    <nd ref="304002567"/>
+    <nd ref="304002572"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="-1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="27681186">
+    <nd ref="304002572"/>
+    <nd ref="298008327"/>
+    <nd ref="298008329"/>
+    <nd ref="1166026309"/>
+    <nd ref="1166026322"/>
+    <nd ref="1166026250"/>
+    <nd ref="298008332"/>
+    <nd ref="1165997755"/>
+    <nd ref="298008335"/>
+    <nd ref="4108454773"/>
+    <nd ref="298008340"/>
+    <nd ref="4108454772"/>
+    <nd ref="298008341"/>
+    <nd ref="298008344"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="27817174">
+    <nd ref="260037605"/>
+    <nd ref="1020348168"/>
+    <nd ref="260037606"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="2"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="28173761">
+    <nd ref="265015404"/>
+    <nd ref="4089960412"/>
+    <nd ref="309451824"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="28173763">
+    <nd ref="309451824"/>
+    <nd ref="265015405"/>
+    <nd ref="265015406"/>
+    <nd ref="265015407"/>
+    <nd ref="4089960413"/>
+    <nd ref="265015408"/>
+    <nd ref="4089960410"/>
+    <nd ref="265015409"/>
+    <nd ref="4089960414"/>
+    <nd ref="265015303"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="28307941">
+    <nd ref="298008371"/>
+    <nd ref="4108455921"/>
+    <nd ref="298008373"/>
+    <nd ref="298008374"/>
+    <nd ref="298008377"/>
+    <nd ref="2271019413"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="28362945">
+    <nd ref="298008344"/>
+    <nd ref="311511749"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="28362946">
+    <nd ref="311511749"/>
+    <nd ref="4108455922"/>
+    <nd ref="298008347"/>
+    <nd ref="298008350"/>
+    <nd ref="3329871455"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="28363186">
+    <nd ref="309452081"/>
+    <nd ref="260037602"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="-1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="31775814">
+    <nd ref="303994779"/>
+    <nd ref="1557026026"/>
+    <nd ref="298008355"/>
+    <nd ref="298008357"/>
+    <nd ref="1557026023"/>
+    <nd ref="298008359"/>
+    <nd ref="1557026012"/>
+    <nd ref="3329871454"/>
+    <tag k="bridge" v="viaduct"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2008"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="61507129">
+    <nd ref="270925191"/>
+    <nd ref="278857614"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="61507130">
+    <nd ref="278857614"/>
+    <nd ref="270925192"/>
+    <nd ref="1962001651"/>
+    <nd ref="270925193"/>
+    <nd ref="270925194"/>
+    <nd ref="270925195"/>
+    <nd ref="270925196"/>
+    <nd ref="270925197"/>
+    <nd ref="270925198"/>
+    <nd ref="270925199"/>
+    <nd ref="270923788"/>
+    <nd ref="270923789"/>
+    <nd ref="270923790"/>
+    <nd ref="270923791"/>
+    <nd ref="270923792"/>
+    <nd ref="270923793"/>
+    <nd ref="270923794"/>
+    <nd ref="270923795"/>
+    <nd ref="270923796"/>
+    <nd ref="270923797"/>
+    <nd ref="270923798"/>
+    <nd ref="270923799"/>
+    <nd ref="270923800"/>
+    <nd ref="270923801"/>
+    <nd ref="260037669"/>
+    <nd ref="260037668"/>
+    <nd ref="260037667"/>
+    <nd ref="260037666"/>
+    <nd ref="260037665"/>
+    <nd ref="260037664"/>
+    <nd ref="260037663"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="68295889">
+    <nd ref="298008393"/>
+    <nd ref="822278440"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="68295890">
+    <nd ref="822278440"/>
+    <nd ref="298008396"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="68295916">
+    <nd ref="298008396"/>
+    <nd ref="298008398"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="-1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="tunnel" v="yes"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="68295917">
+    <nd ref="298008398"/>
+    <nd ref="298008401"/>
+    <nd ref="298006511"/>
+    <nd ref="4108460340"/>
+    <nd ref="4108460342"/>
+    <nd ref="298008404"/>
+    <nd ref="4108460343"/>
+    <nd ref="4108460341"/>
+    <nd ref="298006513"/>
+    <nd ref="298006515"/>
+    <nd ref="298008408"/>
+    <nd ref="298008411"/>
+    <nd ref="4108460345"/>
+    <nd ref="298006518"/>
+    <nd ref="4108460344"/>
+    <nd ref="298008414"/>
+    <nd ref="298006520"/>
+    <nd ref="298006522"/>
+    <nd ref="4108460346"/>
+    <nd ref="298006523"/>
+    <nd ref="298008417"/>
+    <nd ref="298006526"/>
+    <nd ref="298008420"/>
+    <nd ref="298008422"/>
+    <nd ref="303488375"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="99169816">
+    <nd ref="303511035"/>
+    <nd ref="303511036"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Ligne Carnoules - Gardanne"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="947000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2011"/>
+    <tag k="usage" v="tourism"/>
+  </way>
+  <way id="99169834">
+    <nd ref="5777042096"/>
+    <nd ref="303511047"/>
+    <nd ref="303511048"/>
+    <nd ref="303511049"/>
+    <nd ref="303511050"/>
+    <nd ref="303511051"/>
+    <nd ref="303511052"/>
+    <nd ref="303511053"/>
+    <nd ref="303511054"/>
+    <nd ref="303511055"/>
+    <nd ref="303511056"/>
+    <nd ref="303511057"/>
+    <nd ref="303511059"/>
+    <nd ref="303511060"/>
+    <nd ref="303511061"/>
+    <nd ref="303511062"/>
+    <nd ref="303511063"/>
+    <nd ref="303511064"/>
+    <nd ref="6431444296"/>
+    <nd ref="303511065"/>
+    <nd ref="303511066"/>
+    <nd ref="303511067"/>
+    <nd ref="303511068"/>
+    <nd ref="303511069"/>
+    <nd ref="303511070"/>
+    <nd ref="303511071"/>
+    <nd ref="303511072"/>
+    <nd ref="303511073"/>
+    <nd ref="303511074"/>
+    <nd ref="303511075"/>
+    <nd ref="303511076"/>
+    <nd ref="1577480480"/>
+    <nd ref="1577480481"/>
+    <nd ref="1577480482"/>
+    <nd ref="1577480484"/>
+    <nd ref="303511077"/>
+    <nd ref="1577488061"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Ligne Carnoules - Gardanne"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="947000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2011"/>
+    <tag k="usage" v="tourism"/>
+  </way>
+  <way id="101714152">
+    <nd ref="265015321"/>
+    <nd ref="1174497888"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="101714336">
+    <nd ref="1174497888"/>
+    <nd ref="265015322"/>
+    <nd ref="1877971784"/>
+    <nd ref="265015323"/>
+    <nd ref="265015324"/>
+    <nd ref="265015325"/>
+    <nd ref="265015326"/>
+    <nd ref="265015328"/>
+    <nd ref="265015329"/>
+    <nd ref="265015330"/>
+    <nd ref="265015331"/>
+    <nd ref="265015332"/>
+    <nd ref="265015333"/>
+    <nd ref="265015334"/>
+    <nd ref="265015335"/>
+    <nd ref="265015336"/>
+    <nd ref="1877971775"/>
+    <nd ref="265015337"/>
+    <nd ref="1877971778"/>
+    <nd ref="265015338"/>
+    <nd ref="265015339"/>
+    <nd ref="265015340"/>
+    <nd ref="265015341"/>
+    <nd ref="265015342"/>
+    <nd ref="265015343"/>
+    <nd ref="265015344"/>
+    <nd ref="265015345"/>
+    <nd ref="265015346"/>
+    <nd ref="265015347"/>
+    <nd ref="265015348"/>
+    <nd ref="265015349"/>
+    <nd ref="265015350"/>
+    <nd ref="265015351"/>
+    <nd ref="265015352"/>
+    <nd ref="265015353"/>
+    <nd ref="265015354"/>
+    <nd ref="265015355"/>
+    <nd ref="265015356"/>
+    <nd ref="265015357"/>
+    <nd ref="265015358"/>
+    <nd ref="265015359"/>
+    <nd ref="265015360"/>
+    <nd ref="265015361"/>
+    <nd ref="265015362"/>
+    <nd ref="265015363"/>
+    <nd ref="265015364"/>
+    <nd ref="265015365"/>
+    <nd ref="265015366"/>
+    <nd ref="265015367"/>
+    <nd ref="265015368"/>
+    <nd ref="265015369"/>
+    <nd ref="265015370"/>
+    <nd ref="265015371"/>
+    <nd ref="265015372"/>
+    <nd ref="265015373"/>
+    <nd ref="265015374"/>
+    <nd ref="265015375"/>
+    <nd ref="265015376"/>
+    <nd ref="265015377"/>
+    <nd ref="265015378"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="172969489">
+    <nd ref="1837998140"/>
+    <nd ref="1837998124"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="172969490">
+    <nd ref="1837998124"/>
+    <nd ref="265015400"/>
+    <nd ref="265015401"/>
+    <nd ref="265015402"/>
+    <nd ref="4089960407"/>
+    <nd ref="265015403"/>
+    <nd ref="265015404"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="217214669">
+    <nd ref="2265046209"/>
+    <nd ref="2265046207"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="217214670">
+    <nd ref="2265046207"/>
+    <nd ref="2265046198"/>
+    <nd ref="309452081"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="217797087">
+    <nd ref="298008379"/>
+    <nd ref="4108458718"/>
+    <nd ref="298008382"/>
+    <nd ref="4108458720"/>
+    <nd ref="298008383"/>
+    <nd ref="298008384"/>
+    <nd ref="4108458717"/>
+    <nd ref="298008386"/>
+    <nd ref="4108458719"/>
+    <nd ref="298008387"/>
+    <nd ref="298008389"/>
+    <nd ref="298008390"/>
+    <nd ref="298008393"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="217797089">
+    <nd ref="2271019413"/>
+    <nd ref="298008379"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="231281331">
+    <nd ref="298008436"/>
+    <nd ref="2396842713"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="231281334">
+    <nd ref="298006548"/>
+    <nd ref="298008439"/>
+    <nd ref="298006551"/>
+    <nd ref="298006552"/>
+    <nd ref="298006554"/>
+    <nd ref="298008441"/>
+    <nd ref="298006557"/>
+    <nd ref="298008444"/>
+    <nd ref="298008446"/>
+    <nd ref="298006561"/>
+    <nd ref="298006562"/>
+    <nd ref="298008448"/>
+    <nd ref="4108473594"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="231342734">
+    <nd ref="298006581"/>
+    <nd ref="298006582"/>
+    <nd ref="303507746"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="forward"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="1"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241858710">
+    <nd ref="2494360327"/>
+    <nd ref="4108453337"/>
+    <nd ref="4108453348"/>
+    <nd ref="2494360336"/>
+    <nd ref="4108453349"/>
+    <nd ref="299981357"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="4"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="1"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241858711">
+    <nd ref="260037604"/>
+    <nd ref="260037605"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="-1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="2"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="tunnel" v="yes"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="241858713">
+    <nd ref="260037602"/>
+    <nd ref="2265046183"/>
+    <nd ref="1020348454"/>
+    <nd ref="1020348201"/>
+    <nd ref="260037603"/>
+    <nd ref="260037604"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="-1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="tunnel" v="yes"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="241858715">
+    <nd ref="2494360392"/>
+    <nd ref="2494360390"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="-1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="3"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="1"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="tunnel" v="yes"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="241858716">
+    <nd ref="2494360390"/>
+    <nd ref="2494360381"/>
+    <nd ref="2494360327"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="4"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="1"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241858717">
+    <nd ref="2494360396"/>
+    <nd ref="2494360394"/>
+    <nd ref="2494360392"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="1"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="241858718">
+    <nd ref="299981353"/>
+    <nd ref="299981350"/>
+    <nd ref="299981351"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="4"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="A"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241858720">
+    <nd ref="260037609"/>
+    <nd ref="4108453342"/>
+    <nd ref="4108453347"/>
+    <nd ref="260037610"/>
+    <nd ref="4108453346"/>
+    <nd ref="299981357"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="4"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="2"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241858721">
+    <nd ref="299981353"/>
+    <nd ref="2494360383"/>
+    <nd ref="2494360324"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="4"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="B"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241858723">
+    <nd ref="299981351"/>
+    <nd ref="2494360351"/>
+    <nd ref="299981358"/>
+    <nd ref="4108453338"/>
+    <nd ref="5842445451"/>
+    <nd ref="299981359"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="4"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="A"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241858724">
+    <nd ref="2494360385"/>
+    <nd ref="2494360379"/>
+    <nd ref="2494360369"/>
+    <nd ref="2494360359"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="905000"/>
+    <tag k="service" v="siding"/>
+  </way>
+  <way id="241858725">
+    <nd ref="2494360324"/>
+    <nd ref="2494360350"/>
+    <nd ref="2494360328"/>
+    <nd ref="4108453343"/>
+    <nd ref="299981359"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="4"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="B"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241858726">
+    <nd ref="299981354"/>
+    <nd ref="2494360371"/>
+    <nd ref="2494360365"/>
+    <nd ref="2494360355"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="905000"/>
+    <tag k="service" v="siding"/>
+  </way>
+  <way id="241858728">
+    <nd ref="2494360359"/>
+    <nd ref="2494360353"/>
+    <nd ref="2494360344"/>
+    <nd ref="2494360338"/>
+    <nd ref="4108453339"/>
+    <nd ref="299981360"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="905000"/>
+    <tag k="service" v="siding"/>
+  </way>
+  <way id="241858730">
+    <nd ref="299981355"/>
+    <nd ref="299981356"/>
+    <nd ref="2494360340"/>
+    <nd ref="2494360335"/>
+    <nd ref="4108453344"/>
+    <nd ref="299981360"/>
+    <nd ref="4108453345"/>
+    <nd ref="4108453343"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="905000"/>
+    <tag k="service" v="siding"/>
+  </way>
+  <way id="241924248">
+    <nd ref="298006565"/>
+    <nd ref="2494947041"/>
+    <nd ref="2494947039"/>
+    <nd ref="298008450"/>
+    <nd ref="2494947036"/>
+    <nd ref="298008452"/>
+    <nd ref="298008454"/>
+    <nd ref="2494947032"/>
+    <nd ref="298006570"/>
+    <nd ref="298008456"/>
+    <nd ref="298006572"/>
+    <nd ref="2494947027"/>
+    <nd ref="298006574"/>
+    <nd ref="2494947024"/>
+    <nd ref="5736016513"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="forward"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="1"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241924252">
+    <nd ref="2494946816"/>
+    <nd ref="2494946776"/>
+    <nd ref="2494946736"/>
+    <nd ref="2494946711"/>
+    <nd ref="1147132793"/>
+    <nd ref="303505304"/>
+    <nd ref="1147132877"/>
+    <nd ref="303505306"/>
+    <nd ref="1147132938"/>
+    <nd ref="303505307"/>
+    <nd ref="303505309"/>
+    <nd ref="2494946656"/>
+    <nd ref="303505310"/>
+    <nd ref="303505311"/>
+    <nd ref="303505313"/>
+    <nd ref="303505314"/>
+    <nd ref="303505317"/>
+    <nd ref="303505318"/>
+    <nd ref="303505322"/>
+    <nd ref="4108473596"/>
+    <nd ref="303505324"/>
+    <nd ref="4108473595"/>
+    <nd ref="303505325"/>
+    <nd ref="4108473598"/>
+    <nd ref="303505326"/>
+    <nd ref="303505328"/>
+    <nd ref="303505330"/>
+    <nd ref="303505332"/>
+    <nd ref="2494946654"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241924256">
+    <nd ref="5735997089"/>
+    <nd ref="2494947023"/>
+    <nd ref="2494947025"/>
+    <nd ref="2494947026"/>
+    <nd ref="2494947028"/>
+    <nd ref="2494947029"/>
+    <nd ref="2494947030"/>
+    <nd ref="2494947031"/>
+    <nd ref="2494947033"/>
+    <nd ref="2494947034"/>
+    <nd ref="2494947035"/>
+    <nd ref="2494947037"/>
+    <nd ref="2494947038"/>
+    <nd ref="2494947040"/>
+    <nd ref="298006565"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="forward"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="E"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241924259">
+    <nd ref="2494946816"/>
+    <nd ref="2494946879"/>
+    <nd ref="2494946896"/>
+    <nd ref="2494946911"/>
+    <nd ref="2494946924"/>
+    <nd ref="2494946929"/>
+    <nd ref="2494946937"/>
+    <nd ref="2494946944"/>
+    <nd ref="2494946951"/>
+    <nd ref="2494946578"/>
+    <nd ref="2494946971"/>
+    <nd ref="2494946980"/>
+    <nd ref="2494946986"/>
+    <nd ref="2494946990"/>
+    <nd ref="2494946994"/>
+    <nd ref="2494946997"/>
+    <nd ref="1147133173"/>
+    <nd ref="1147132759"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="forward"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="B"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241924260">
+    <nd ref="2494947004"/>
+    <nd ref="2494947005"/>
+    <nd ref="2494947006"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="forward"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="E"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="241924282">
+    <nd ref="2494946991"/>
+    <nd ref="2494946987"/>
+    <nd ref="2494946982"/>
+    <nd ref="2494946965"/>
+    <nd ref="2494946950"/>
+    <nd ref="2494946933"/>
+    <nd ref="2494946918"/>
+    <nd ref="2494946831"/>
+    <nd ref="2494946793"/>
+    <nd ref="2494946723"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="241924285">
+    <nd ref="2494946984"/>
+    <nd ref="2494946975"/>
+    <nd ref="2494946962"/>
+    <nd ref="2494946934"/>
+    <nd ref="2494946916"/>
+    <nd ref="2494946900"/>
+    <nd ref="2494946859"/>
+    <nd ref="2494946827"/>
+    <nd ref="2494946784"/>
+    <nd ref="2494946752"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="241924287">
+    <nd ref="2494946922"/>
+    <nd ref="2494946892"/>
+    <nd ref="2494946883"/>
+    <nd ref="2494946868"/>
+    <nd ref="2494946850"/>
+    <nd ref="2494946839"/>
+    <nd ref="2494946833"/>
+    <nd ref="2494946825"/>
+    <nd ref="2494946808"/>
+    <nd ref="2494946788"/>
+    <nd ref="2494946771"/>
+    <nd ref="2494946763"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="241924289">
+    <nd ref="2494946996"/>
+    <nd ref="1147133173"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+  </way>
+  <way id="241924290">
+    <nd ref="2494946786"/>
+    <nd ref="2494946767"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="241924292">
+    <nd ref="2494946804"/>
+    <nd ref="2494946793"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="241924294">
+    <nd ref="303554221"/>
+    <nd ref="2494946995"/>
+    <nd ref="2494946992"/>
+    <nd ref="2494946988"/>
+    <nd ref="2494946978"/>
+    <nd ref="2494946963"/>
+    <nd ref="2494946945"/>
+    <nd ref="2494946931"/>
+    <nd ref="2494946912"/>
+    <nd ref="2494946881"/>
+    <nd ref="2494946835"/>
+    <nd ref="2494946804"/>
+    <nd ref="2494946791"/>
+    <nd ref="2494946763"/>
+    <nd ref="2494946742"/>
+    <nd ref="2494946719"/>
+    <nd ref="2494946708"/>
+    <nd ref="2494946698"/>
+    <nd ref="2494946692"/>
+    <nd ref="2494946688"/>
+    <nd ref="2494946675"/>
+    <nd ref="2494946669"/>
+    <nd ref="2494946662"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="241924300">
+    <nd ref="2494946999"/>
+    <nd ref="2494946998"/>
+    <nd ref="2494946995"/>
+    <nd ref="2494946991"/>
+    <nd ref="2494946984"/>
+    <nd ref="2494946976"/>
+    <nd ref="2494946957"/>
+    <nd ref="2494946949"/>
+    <nd ref="2494946941"/>
+    <nd ref="2494946927"/>
+    <nd ref="2494946923"/>
+    <nd ref="2494946914"/>
+    <nd ref="2494946898"/>
+    <nd ref="2494946877"/>
+    <nd ref="2494946862"/>
+    <nd ref="2494946841"/>
+    <nd ref="2494946823"/>
+    <nd ref="2494946797"/>
+    <nd ref="2494946782"/>
+    <nd ref="2494946752"/>
+    <nd ref="2494946723"/>
+    <nd ref="2494946702"/>
+    <nd ref="2494946694"/>
+    <nd ref="2494946690"/>
+    <nd ref="2494946680"/>
+    <nd ref="2494946667"/>
+    <nd ref="2494946665"/>
+    <nd ref="2494946659"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="241924301">
+    <nd ref="2494946926"/>
+    <nd ref="2494946908"/>
+    <nd ref="2494946881"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="241924302">
+    <nd ref="2494946927"/>
+    <nd ref="2494946910"/>
+    <nd ref="2494946841"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="241924303">
+    <nd ref="2494946708"/>
+    <nd ref="2494946702"/>
+    <nd ref="1147132793"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="241924304">
+    <nd ref="2494946727"/>
+    <nd ref="2494946732"/>
+    <nd ref="5694322716"/>
+    <nd ref="2494946721"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="241924305">
+    <nd ref="2494946769"/>
+    <nd ref="2494946756"/>
+    <nd ref="2494946754"/>
+    <nd ref="2494946758"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="241924306">
+    <nd ref="2494946795"/>
+    <nd ref="2494946778"/>
+    <nd ref="2494946767"/>
+    <nd ref="2494946758"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="241924307">
+    <nd ref="2494946905"/>
+    <nd ref="2494946873"/>
+    <nd ref="2494946852"/>
+    <nd ref="2494946835"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="241924308">
+    <nd ref="2494946949"/>
+    <nd ref="2494946935"/>
+    <nd ref="2494946917"/>
+    <nd ref="2494946812"/>
+    <nd ref="2494946799"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="241924309">
+    <nd ref="2494946820"/>
+    <nd ref="2494946802"/>
+    <nd ref="2494946774"/>
+    <nd ref="2494946765"/>
+    <nd ref="2494946761"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="241924310">
+    <nd ref="2494946715"/>
+    <nd ref="5694322871"/>
+    <nd ref="2494946727"/>
+    <nd ref="5694321011"/>
+    <nd ref="2494946738"/>
+    <nd ref="2494946740"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="241924311">
+    <nd ref="2494946957"/>
+    <nd ref="2494946938"/>
+    <nd ref="2494946919"/>
+    <nd ref="2494946885"/>
+    <nd ref="2494946799"/>
+    <nd ref="2494946782"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="241924312">
+    <nd ref="2494946941"/>
+    <nd ref="2494946928"/>
+    <nd ref="2494946909"/>
+    <nd ref="2494946848"/>
+    <nd ref="2494946818"/>
+    <nd ref="2494946797"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="241924313">
+    <nd ref="2494946921"/>
+    <nd ref="2494946894"/>
+    <nd ref="2494946875"/>
+    <nd ref="2494946856"/>
+    <nd ref="2494946843"/>
+    <nd ref="2494946837"/>
+    <nd ref="2494946808"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="241924314">
+    <nd ref="2494946915"/>
+    <nd ref="2494946887"/>
+    <nd ref="2494946870"/>
+    <nd ref="2494946846"/>
+    <nd ref="2494946829"/>
+    <nd ref="5694322714"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="241924315">
+    <nd ref="2494946902"/>
+    <nd ref="2494946865"/>
+    <nd ref="2494946814"/>
+    <nd ref="2494946810"/>
+    <nd ref="5694321009"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="241924316">
+    <nd ref="2494946673"/>
+    <nd ref="2494946696"/>
+    <nd ref="2494946706"/>
+    <nd ref="5694321012"/>
+    <nd ref="2494946717"/>
+    <nd ref="2494946734"/>
+    <nd ref="5694322718"/>
+    <nd ref="2494946746"/>
+    <nd ref="5694322882"/>
+    <nd ref="2494946740"/>
+    <nd ref="2494946729"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="241924317">
+    <nd ref="2494946677"/>
+    <nd ref="2494946700"/>
+    <nd ref="2494946713"/>
+    <nd ref="5694322893"/>
+    <nd ref="2494946725"/>
+    <nd ref="5694322720"/>
+    <nd ref="2494946744"/>
+    <nd ref="5694321013"/>
+    <nd ref="2494946750"/>
+    <nd ref="2494946748"/>
+    <nd ref="2494946729"/>
+    <nd ref="2494946719"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="241924318">
+    <nd ref="2494946923"/>
+    <nd ref="2494946913"/>
+    <nd ref="2494946877"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="yard"/>
+  </way>
+  <way id="243220249">
+    <nd ref="265015378"/>
+    <nd ref="2506393017"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="243220250">
+    <nd ref="2506393017"/>
+    <nd ref="265015379"/>
+    <nd ref="265015380"/>
+    <nd ref="265015381"/>
+    <nd ref="265015383"/>
+    <nd ref="265015384"/>
+    <nd ref="265015385"/>
+    <nd ref="265015386"/>
+    <nd ref="265015387"/>
+    <nd ref="265015388"/>
+    <nd ref="265015389"/>
+    <nd ref="265015390"/>
+    <nd ref="265015391"/>
+    <nd ref="265015392"/>
+    <nd ref="265015393"/>
+    <nd ref="265015394"/>
+    <nd ref="265015395"/>
+    <nd ref="265015396"/>
+    <nd ref="265015397"/>
+    <nd ref="302861871"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="251569690">
+    <nd ref="2577741817"/>
+    <nd ref="274926428"/>
+    <nd ref="274926427"/>
+    <nd ref="2577741814"/>
+    <nd ref="274926426"/>
+    <nd ref="2577741813"/>
+    <nd ref="2577741812"/>
+    <nd ref="274926425"/>
+    <nd ref="274926424"/>
+    <nd ref="351556436"/>
+    <nd ref="274926423"/>
+    <nd ref="274926422"/>
+    <nd ref="274926420"/>
+    <nd ref="274926419"/>
+    <nd ref="274926418"/>
+    <nd ref="274926417"/>
+    <nd ref="259760743"/>
+    <nd ref="274926416"/>
+    <nd ref="274926415"/>
+    <nd ref="297973917"/>
+    <nd ref="274926414"/>
+    <nd ref="274926412"/>
+    <nd ref="274926410"/>
+    <nd ref="274926409"/>
+    <nd ref="274926408"/>
+    <nd ref="270923988"/>
+    <nd ref="270923987"/>
+    <nd ref="270923986"/>
+    <nd ref="270923985"/>
+    <nd ref="270923984"/>
+    <nd ref="2578068711"/>
+    <nd ref="270923983"/>
+    <nd ref="270923982"/>
+    <nd ref="270923981"/>
+    <nd ref="270925357"/>
+    <nd ref="270923980"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="326355047">
+    <nd ref="3329871455"/>
+    <nd ref="298008352"/>
+    <nd ref="303994779"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="326355051">
+    <nd ref="3329871454"/>
+    <nd ref="298008364"/>
+    <nd ref="298008365"/>
+    <nd ref="298008367"/>
+    <nd ref="298008368"/>
+    <nd ref="1557025964"/>
+    <nd ref="298008369"/>
+    <nd ref="1557025948"/>
+    <nd ref="298008371"/>
+    <tag k="bridge" v="viaduct"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="source" v="mise à jour : 2008;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="408944658">
+    <nd ref="303500640"/>
+    <nd ref="4108467537"/>
+    <nd ref="298008425"/>
+    <nd ref="4108467544"/>
+    <nd ref="298006533"/>
+    <nd ref="298008428"/>
+    <nd ref="298008430"/>
+    <nd ref="4108467540"/>
+    <nd ref="298008432"/>
+    <nd ref="4108467539"/>
+    <nd ref="298006540"/>
+    <nd ref="4108467542"/>
+    <nd ref="4108467543"/>
+    <nd ref="298008435"/>
+    <nd ref="4108467541"/>
+    <nd ref="298006543"/>
+    <nd ref="4108467536"/>
+    <nd ref="4108467545"/>
+    <nd ref="298006544"/>
+    <nd ref="4108467538"/>
+    <nd ref="298008436"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="408944660">
+    <nd ref="303500636"/>
+    <nd ref="303500640"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="408945851">
+    <nd ref="4108473597"/>
+    <nd ref="298006565"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="408945858">
+    <nd ref="4108473594"/>
+    <nd ref="4108473597"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="443917371">
+    <nd ref="260037604"/>
+    <nd ref="2494360396"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="-1"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="1"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="tunnel" v="yes"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="443917372">
+    <nd ref="299981359"/>
+    <nd ref="4108454775"/>
+    <nd ref="5842445454"/>
+    <nd ref="5842445452"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="443917373">
+    <nd ref="299981357"/>
+    <nd ref="4108454774"/>
+    <nd ref="299650504"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="443917374">
+    <nd ref="1147132759"/>
+    <nd ref="1147132817"/>
+    <nd ref="1147132882"/>
+    <nd ref="1147132866"/>
+    <nd ref="1147132926"/>
+    <nd ref="1147133036"/>
+    <nd ref="1147133077"/>
+    <nd ref="1147133001"/>
+    <nd ref="2494947000"/>
+    <nd ref="2494947001"/>
+    <nd ref="2494947003"/>
+    <nd ref="2494947004"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="forward"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="E"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="443917375">
+    <nd ref="303554221"/>
+    <nd ref="303554306"/>
+    <nd ref="2494946996"/>
+    <nd ref="2494946993"/>
+    <nd ref="2494946989"/>
+    <nd ref="2494946985"/>
+    <nd ref="2494946977"/>
+    <nd ref="2494946964"/>
+    <nd ref="2494946571"/>
+    <nd ref="2494946946"/>
+    <nd ref="2494946940"/>
+    <nd ref="2494946925"/>
+    <nd ref="2494946920"/>
+    <nd ref="2494946907"/>
+    <nd ref="2494946890"/>
+    <nd ref="2494946816"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="forward"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="A"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="453280430">
+    <nd ref="4500359199"/>
+    <nd ref="260037640"/>
+    <nd ref="260037639"/>
+    <nd ref="260037638"/>
+    <nd ref="260037637"/>
+    <nd ref="260037636"/>
+    <nd ref="260037635"/>
+    <nd ref="260037634"/>
+    <nd ref="260037633"/>
+    <nd ref="260037632"/>
+    <nd ref="260037631"/>
+    <nd ref="260037630"/>
+    <nd ref="6404416199"/>
+    <nd ref="260037629"/>
+    <nd ref="260037628"/>
+    <nd ref="6404416200"/>
+    <nd ref="6404416201"/>
+    <nd ref="260037627"/>
+    <nd ref="260037626"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="453280435">
+    <nd ref="4500359200"/>
+    <nd ref="4500359199"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="453529310">
+    <nd ref="303511043"/>
+    <nd ref="4502522306"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Ligne Carnoules - Gardanne"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="947000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2011"/>
+    <tag k="usage" v="tourism"/>
+  </way>
+  <way id="453529311">
+    <nd ref="303511036"/>
+    <nd ref="1147133126"/>
+    <nd ref="303511037"/>
+    <nd ref="1147133046"/>
+    <nd ref="303511038"/>
+    <nd ref="1147133075"/>
+    <nd ref="303511039"/>
+    <nd ref="1147133102"/>
+    <nd ref="303511040"/>
+    <nd ref="303511041"/>
+    <nd ref="303511042"/>
+    <nd ref="303511043"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Ligne Carnoules - Gardanne"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="947000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2011"/>
+    <tag k="usage" v="tourism"/>
+  </way>
+  <way id="520322410">
+    <nd ref="297917614"/>
+    <nd ref="5071612869"/>
+    <nd ref="5071612870"/>
+    <nd ref="5071612871"/>
+    <nd ref="5071612872"/>
+    <nd ref="5071612873"/>
+    <nd ref="5071612874"/>
+    <nd ref="5071612875"/>
+    <nd ref="5071612876"/>
+    <nd ref="5071612877"/>
+    <nd ref="5071612878"/>
+    <nd ref="3661908971"/>
+    <nd ref="5071612879"/>
+    <nd ref="5071612880"/>
+    <nd ref="5071612881"/>
+    <nd ref="5071612882"/>
+    <nd ref="5071612883"/>
+    <nd ref="5071612884"/>
+    <nd ref="5071612885"/>
+    <nd ref="5071612886"/>
+    <nd ref="5071612887"/>
+    <nd ref="274926417"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+  </way>
+  <way id="560577836">
+    <nd ref="297917932"/>
+    <nd ref="297917852"/>
+    <nd ref="297917933"/>
+    <nd ref="297917854"/>
+    <nd ref="297917934"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+  </way>
+  <way id="598263726">
+    <nd ref="1166603778"/>
+    <nd ref="2494946780"/>
+    <nd ref="2494946761"/>
+    <nd ref="2494946758"/>
+    <nd ref="2494946742"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="598263728">
+    <nd ref="5694321009"/>
+    <nd ref="5694320326"/>
+    <nd ref="5694322870"/>
+    <nd ref="1166603778"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="tunnel" v="building_passage"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="598263737">
+    <nd ref="5694321010"/>
+    <nd ref="2494946806"/>
+    <nd ref="2494946788"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="598263739">
+    <nd ref="5694322714"/>
+    <nd ref="5694321010"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="service" v="spur"/>
+    <tag k="tunnel" v="building_passage"/>
+    <tag k="usage" v="industrial"/>
+  </way>
+  <way id="604543147">
+    <nd ref="5736016515"/>
+    <nd ref="5735997089"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="forward"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="E"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="604543151">
+    <nd ref="2494947006"/>
+    <nd ref="2494947007"/>
+    <nd ref="2494947008"/>
+    <nd ref="2494947009"/>
+    <nd ref="2494947010"/>
+    <nd ref="2494947012"/>
+    <nd ref="2494947013"/>
+    <nd ref="2494947015"/>
+    <nd ref="2494947017"/>
+    <nd ref="2494947018"/>
+    <nd ref="2494947020"/>
+    <nd ref="2494947022"/>
+    <nd ref="5736016515"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="forward"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="E"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="604543152">
+    <nd ref="5736016514"/>
+    <nd ref="298008457"/>
+    <nd ref="2494947021"/>
+    <nd ref="2494947019"/>
+    <nd ref="298008458"/>
+    <nd ref="2494947016"/>
+    <nd ref="2494947014"/>
+    <nd ref="298006578"/>
+    <nd ref="2494947011"/>
+    <nd ref="298008460"/>
+    <nd ref="1147133168"/>
+    <nd ref="2396842711"/>
+    <nd ref="298006581"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="forward"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="1"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="604543153">
+    <nd ref="5736016513"/>
+    <nd ref="5736016514"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="forward"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:track_ref" v="1"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="606673713">
+    <nd ref="2494360388"/>
+    <nd ref="299981353"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="3"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="609962793">
+    <nd ref="5777040926"/>
+    <nd ref="5777042092"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Ligne Carnoules - Gardanne"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="947000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2011"/>
+    <tag k="usage" v="tourism"/>
+  </way>
+  <way id="609962794">
+    <nd ref="303511045"/>
+    <nd ref="5777040926"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Ligne Carnoules - Gardanne"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="947000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2011"/>
+    <tag k="usage" v="tourism"/>
+  </way>
+  <way id="609962805">
+    <nd ref="5777042091"/>
+    <nd ref="5777042094"/>
+    <nd ref="303511046"/>
+    <nd ref="5777042107"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Ligne Carnoules - Gardanne"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="947000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2011"/>
+    <tag k="usage" v="tourism"/>
+  </way>
+  <way id="609962806">
+    <nd ref="5777042092"/>
+    <nd ref="5777042091"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Ligne Carnoules - Gardanne"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="947000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2011"/>
+    <tag k="usage" v="tourism"/>
+  </way>
+  <way id="609962807">
+    <nd ref="5777042107"/>
+    <nd ref="5777042096"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Ligne Carnoules - Gardanne"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="947000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2011"/>
+    <tag k="usage" v="tourism"/>
+  </way>
+  <way id="609962808">
+    <nd ref="4502522306"/>
+    <nd ref="12156807"/>
+    <nd ref="303511044"/>
+    <nd ref="303511045"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Ligne Carnoules - Gardanne"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="ref" v="947000"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2011"/>
+    <tag k="usage" v="tourism"/>
+  </way>
+  <way id="612343656">
+    <nd ref="298008438"/>
+    <nd ref="298006548"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="612343657">
+    <nd ref="2396842713"/>
+    <nd ref="298008438"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="maxspeed" v="110"/>
+    <tag k="name" v="Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="1"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1877"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="618087757">
+    <nd ref="5842445452"/>
+    <nd ref="5842445453"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Aix-en-Provence"/>
+    <tag k="name:ar" v="آكس أون بروفانس"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="passenger_lines" v="2"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="passenger"/>
+    <tag k="ref" v="905000"/>
+    <tag k="start_date" v="1872"/>
+    <tag k="usage" v="main"/>
+  </way>
+  <way id="618632826">
+    <nd ref="5847283570"/>
+    <nd ref="260037658"/>
+    <nd ref="260037657"/>
+    <nd ref="260037656"/>
+    <nd ref="260037655"/>
+    <nd ref="260037654"/>
+    <nd ref="260037653"/>
+    <nd ref="260037652"/>
+    <nd ref="260037651"/>
+    <nd ref="260037650"/>
+    <nd ref="260037649"/>
+    <nd ref="260037648"/>
+    <nd ref="5847283571"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="618632827">
+    <nd ref="5847283569"/>
+    <nd ref="5847283570"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="618632828">
+    <nd ref="5847283572"/>
+    <nd ref="260037647"/>
+    <nd ref="260037646"/>
+    <nd ref="260037645"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <way id="618632829">
+    <nd ref="5847283571"/>
+    <nd ref="5847283572"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="electrified" v="no"/>
+    <tag k="gauge" v="1435"/>
+    <tag k="importance" v="regional"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Ligne de Rognac à Aix-en-Provence"/>
+    <tag k="operator" v="SNCF Réseau"/>
+    <tag k="railway" v="rail"/>
+    <tag k="railway:bidirectional" v="regular"/>
+    <tag k="railway:preferred_direction" v="both"/>
+    <tag k="railway:radio" v="analogue"/>
+    <tag k="railway:traffic_mode" v="freight"/>
+    <tag k="ref" v="928000"/>
+    <tag k="start_date" v="1856"/>
+    <tag k="usage" v="branch"/>
+  </way>
+  <node id="274926426" lat="43.5022633" lon="5.3463145"/>
+  <node id="274926427" lat="43.5027493" lon="5.3450337"/>
+  <node id="274926428" lat="43.5030740" lon="5.3439385"/>
+  <node id="2577741812" lat="43.5016330" lon="5.3475981"/>
+  <node id="2577741813" lat="43.5021011" lon="5.3466752"/>
+  <node id="2577741814" lat="43.5025005" lon="5.3457352"/>
+  <node id="2577741817" lat="43.5032328" lon="5.3432508"/>
+  <node id="303505332" lat="43.4369969" lon="5.4289921"/>
+  <node id="2494946654" lat="43.4363923" lon="5.4281748"/>
+  <node id="303505330" lat="43.4401621" lon="5.4332097"/>
+  <node id="303505326" lat="43.4446529" lon="5.4392102"/>
+  <node id="303505328" lat="43.4422699" lon="5.4360256"/>
+  <node id="303505322" lat="43.4467844" lon="5.4432338"/>
+  <node id="303505324" lat="43.4457584" lon="5.4409606"/>
+  <node id="303505325" lat="43.4452520" lon="5.4400725"/>
+  <node id="4108473595" lat="43.4455122" lon="5.4405045"/>
+  <node id="4108473596" lat="43.4460177" lon="5.4414951"/>
+  <node id="4108473598" lat="43.4449741" lon="5.4396577"/>
+  <node id="303505318" lat="43.4478266" lon="5.4456057"/>
+  <node id="303505313" lat="43.4510984" lon="5.4521611"/>
+  <node id="303505314" lat="43.4506187" lon="5.4516375"/>
+  <node id="303505317" lat="43.4501451" lon="5.4509080"/>
+  <node id="298006533" lat="43.4798310" lon="5.4249889"/>
+  <node id="298008428" lat="43.4794207" lon="5.4252076"/>
+  <node id="298008430" lat="43.4790889" lon="5.4254434"/>
+  <node id="298008432" lat="43.4784808" lon="5.4260372"/>
+  <node id="4108467540" lat="43.4787664" lon="5.4257227"/>
+  <node id="298006551" lat="43.4728330" lon="5.4361522"/>
+  <node id="298006552" lat="43.4723347" lon="5.4371564"/>
+  <node id="298006554" lat="43.4718862" lon="5.4382207"/>
+  <node id="298006540" lat="43.4779704" lon="5.4267948"/>
+  <node id="298006543" lat="43.4763708" lon="5.4308834"/>
+  <node id="298006544" lat="43.4757035" lon="5.4320590"/>
+  <node id="298008435" lat="43.4771214" lon="5.4289489"/>
+  <node id="4108467536" lat="43.4761817" lon="5.4312807"/>
+  <node id="4108467538" lat="43.4754077" lon="5.4324265"/>
+  <node id="4108467539" lat="43.4782067" lon="5.4263974"/>
+  <node id="4108467541" lat="43.4766116" lon="5.4302979"/>
+  <node id="4108467542" lat="43.4777739" lon="5.4272170"/>
+  <node id="4108467543" lat="43.4775750" lon="5.4277176"/>
+  <node id="4108467545" lat="43.4759463" lon="5.4316880"/>
+  <node id="298006548" lat="43.4738253" lon="5.4342479"/>
+  <node id="298008436" lat="43.4749428" lon="5.4329558"/>
+  <node id="298008438" lat="43.4741503" lon="5.4338257"/>
+  <node id="298008439" lat="43.4734684" lon="5.4348819"/>
+  <node id="2396842713" lat="43.4747856" lon="5.4331316"/>
+  <node id="298006557" lat="43.4711388" lon="5.4426582"/>
+  <node id="298008441" lat="43.4715312" lon="5.4398344"/>
+  <node id="298008444" lat="43.4708709" lon="5.4444349"/>
+  <node id="298008446" lat="43.4706592" lon="5.4455249"/>
+  <node id="298006561" lat="43.4703539" lon="5.4466751"/>
+  <node id="298006562" lat="43.4699117" lon="5.4478166"/>
+  <node id="298006565" lat="43.4677659" lon="5.4524739"/>
+  <node id="298008448" lat="43.4690957" lon="5.4495933"/>
+  <node id="4108473594" lat="43.4684097" lon="5.4510751"/>
+  <node id="4108473597" lat="43.4682461" lon="5.4514336"/>
+  <node id="297917614" lat="43.4921457" lon="5.3694972"/>
+  <node id="297917711" lat="43.4909214" lon="5.3698968"/>
+  <node id="297917785" lat="43.4903707" lon="5.3700830"/>
+  <node id="297917789" lat="43.4900375" lon="5.3700755"/>
+  <node id="297917790" lat="43.4884491" lon="5.3701740"/>
+  <node id="297917850" lat="43.4910150" lon="5.3701928"/>
+  <node id="297917852" lat="43.4888670" lon="5.3723361"/>
+  <node id="297917923" lat="43.4895271" lon="5.3713148"/>
+  <node id="297917924" lat="43.4886927" lon="5.3721645"/>
+  <node id="297917932" lat="43.4901685" lon="5.3708599"/>
+  <node id="297918180" lat="43.4908721" lon="5.3700702"/>
+  <node id="297918197" lat="43.4904425" lon="5.3702419"/>
+  <node id="298266904" lat="43.4900560" lon="5.3702951"/>
+  <node id="298266905" lat="43.4897208" lon="5.3703209"/>
+  <node id="298266907" lat="43.4885048" lon="5.3703901"/>
+  <node id="298266908" lat="43.4904000" lon="5.3698964"/>
+  <node id="298266910" lat="43.4899434" lon="5.3699728"/>
+  <node id="298266911" lat="43.4884521" lon="5.3700561"/>
+  <node id="298266913" lat="43.4899977" lon="5.3701371"/>
+  <node id="298266914" lat="43.4884502" lon="5.3702289"/>
+  <node id="1042604878" lat="43.4905911" lon="5.3704774"/>
+  <node id="1042604927" lat="43.4915550" lon="5.3698690"/>
+  <node id="1042604964" lat="43.4914457" lon="5.3697715"/>
+  <node id="5071612869" lat="43.4924176" lon="5.3693805"/>
+  <node id="5071612870" lat="43.4926464" lon="5.3692536"/>
+  <node id="5071612871" lat="43.4928808" lon="5.3690728"/>
+  <node id="5498812415" lat="43.4906579" lon="5.3698643"/>
+  <node id="5498812416" lat="43.4911415" lon="5.3698522"/>
+  <node id="5498812417" lat="43.4918410" lon="5.3696497"/>
+  <node id="274926422" lat="43.4992060" lon="5.3524842"/>
+  <node id="274926417" lat="43.4983530" lon="5.3605351"/>
+  <node id="274926418" lat="43.4982472" lon="5.3580889"/>
+  <node id="274926419" lat="43.4983219" lon="5.3562006"/>
+  <node id="274926420" lat="43.4986643" lon="5.3543124"/>
+  <node id="274926423" lat="43.4998161" lon="5.3510079"/>
+  <node id="274926424" lat="43.5003788" lon="5.3499822"/>
+  <node id="274926425" lat="43.5010175" lon="5.3487347"/>
+  <node id="351556436" lat="43.5000233" lon="5.3506678"/>
+  <node id="259760743" lat="43.4985849" lon="5.3648665"/>
+  <node id="3661908971" lat="43.4963518" lon="5.3654881"/>
+  <node id="5071612875" lat="43.4950293" lon="5.3667766"/>
+  <node id="5071612876" lat="43.4952598" lon="5.3665465"/>
+  <node id="5071612877" lat="43.4954178" lon="5.3664307"/>
+  <node id="5071612878" lat="43.4957299" lon="5.3661577"/>
+  <node id="5071612879" lat="43.4969482" lon="5.3648202"/>
+  <node id="5071612880" lat="43.4971902" lon="5.3644811"/>
+  <node id="5071612881" lat="43.4973882" lon="5.3641695"/>
+  <node id="5071612882" lat="43.4975483" lon="5.3638716"/>
+  <node id="5071612883" lat="43.4978083" lon="5.3632705"/>
+  <node id="5071612884" lat="43.4980164" lon="5.3626803"/>
+  <node id="5071612885" lat="43.4982804" lon="5.3617317"/>
+  <node id="5071612886" lat="43.4983309" lon="5.3614319"/>
+  <node id="5071612887" lat="43.4983554" lon="5.3611747"/>
+  <node id="274926415" lat="43.4988581" lon="5.3725155"/>
+  <node id="274926416" lat="43.4987003" lon="5.3688121"/>
+  <node id="297973917" lat="43.4989386" lon="5.3737534"/>
+  <node id="5071612872" lat="43.4930399" lon="5.3689190"/>
+  <node id="5071612873" lat="43.4932435" lon="5.3687074"/>
+  <node id="5071612874" lat="43.4941364" lon="5.3677189"/>
+  <node id="297917854" lat="43.4855292" lon="5.3763444"/>
+  <node id="297917927" lat="43.4848878" lon="5.3767822"/>
+  <node id="297917934" lat="43.4837606" lon="5.3786189"/>
+  <node id="297917945" lat="43.4859153" lon="5.3754690"/>
+  <node id="297917946" lat="43.4836298" lon="5.3784301"/>
+  <node id="297917925" lat="43.4868370" lon="5.3744047"/>
+  <node id="297917933" lat="43.4870300" lon="5.3744562"/>
+  <node id="274926412" lat="43.4994290" lon="5.3764407"/>
+  <node id="274926414" lat="43.4991156" lon="5.3748977"/>
+  <node id="270923988" lat="43.5008985" lon="5.3801739"/>
+  <node id="274926408" lat="43.5004562" lon="5.3792961"/>
+  <node id="274926409" lat="43.4998570" lon="5.3778553"/>
+  <node id="274926410" lat="43.4996103" lon="5.3770935"/>
+  <node id="270923979" lat="43.5050429" lon="5.3841412"/>
+  <node id="270923980" lat="43.5044065" lon="5.3838093"/>
+  <node id="270923981" lat="43.5038844" lon="5.3834892"/>
+  <node id="270923982" lat="43.5035905" lon="5.3832774"/>
+  <node id="270923983" lat="43.5032820" lon="5.3830405"/>
+  <node id="270923984" lat="43.5024544" lon="5.3822889"/>
+  <node id="270923985" lat="43.5020199" lon="5.3818103"/>
+  <node id="270923986" lat="43.5017438" lon="5.3814457"/>
+  <node id="270923987" lat="43.5012970" lon="5.3808099"/>
+  <node id="270925188" lat="43.5060497" lon="5.3845497"/>
+  <node id="270925357" lat="43.5040244" lon="5.3835770"/>
+  <node id="1962012530" lat="43.5047137" lon="5.3839760"/>
+  <node id="2578068711" lat="43.5028052" lon="5.3826075"/>
+  <node id="270925189" lat="43.5067990" lon="5.3848410"/>
+  <node id="270925190" lat="43.5072466" lon="5.3850809"/>
+  <node id="270925191" lat="43.5075526" lon="5.3853083"/>
+  <node id="270925192" lat="43.5081728" lon="5.3858048"/>
+  <node id="270925193" lat="43.5088849" lon="5.3866596"/>
+  <node id="278857614" lat="43.5077165" lon="5.3854438"/>
+  <node id="1962001651" lat="43.5086078" lon="5.3863139"/>
+  <node id="270923788" lat="43.5101711" lon="5.3896050"/>
+  <node id="270923789" lat="43.5103034" lon="5.3902889"/>
+  <node id="270923790" lat="43.5103380" lon="5.3909341"/>
+  <node id="270923791" lat="43.5104002" lon="5.3914320"/>
+  <node id="270923792" lat="43.5104065" lon="5.3930627"/>
+  <node id="270925194" lat="43.5091741" lon="5.3871096"/>
+  <node id="270925195" lat="43.5094115" lon="5.3875218"/>
+  <node id="270925196" lat="43.5096136" lon="5.3879669"/>
+  <node id="270925197" lat="43.5097932" lon="5.3883998"/>
+  <node id="270925198" lat="43.5099836" lon="5.3889075"/>
+  <node id="270925199" lat="43.5100670" lon="5.3892382"/>
+  <node id="270923793" lat="43.5104127" lon="5.3973886"/>
+  <node id="270923794" lat="43.5104687" lon="5.3991052"/>
+  <node id="298006531" lat="43.4840624" lon="5.4247282"/>
+  <node id="298008425" lat="43.4805381" lon="5.4248137"/>
+  <node id="303500636" lat="43.4815605" lon="5.4247831"/>
+  <node id="303500640" lat="43.4814234" lon="5.4247861"/>
+  <node id="4108467537" lat="43.4809093" lon="5.4247813"/>
+  <node id="4108467544" lat="43.4801859" lon="5.4248894"/>
+  <node id="298006523" lat="43.4925840" lon="5.4251383"/>
+  <node id="298006526" lat="43.4911303" lon="5.4246166"/>
+  <node id="298006529" lat="43.4875684" lon="5.4246080"/>
+  <node id="298008417" lat="43.4918900" lon="5.4248312"/>
+  <node id="298008420" lat="43.4904951" lon="5.4245393"/>
+  <node id="298008422" lat="43.4895611" lon="5.4245651"/>
+  <node id="303488373" lat="43.4883487" lon="5.4245888"/>
+  <node id="303488375" lat="43.4887032" lon="5.4245831"/>
+  <node id="298006522" lat="43.4937704" lon="5.4259470"/>
+  <node id="4108460346" lat="43.4931914" lon="5.4254961"/>
+  <node id="298006518" lat="43.4958776" lon="5.4289347"/>
+  <node id="298006520" lat="43.4946359" lon="5.4268138"/>
+  <node id="298008408" lat="43.4967840" lon="5.4324701"/>
+  <node id="298008411" lat="43.4964965" lon="5.4308369"/>
+  <node id="298008414" lat="43.4950344" lon="5.4273717"/>
+  <node id="4108460344" lat="43.4955118" lon="5.4281517"/>
+  <node id="4108460345" lat="43.4962187" lon="5.4298171"/>
+  <node id="298006511" lat="43.4990284" lon="5.4390870"/>
+  <node id="298006513" lat="43.4975520" lon="5.4359311"/>
+  <node id="298006515" lat="43.4972697" lon="5.4348905"/>
+  <node id="298008404" lat="43.4981818" lon="5.4375416"/>
+  <node id="4108460340" lat="43.4987433" lon="5.4386196"/>
+  <node id="4108460341" lat="43.4977522" lon="5.4364990"/>
+  <node id="4108460342" lat="43.4984453" lon="5.4380782"/>
+  <node id="4108460343" lat="43.4979603" lon="5.4370321"/>
+  <node id="298008401" lat="43.4993730" lon="5.4395931"/>
+  <node id="298008390" lat="43.5038055" lon="5.4459271"/>
+  <node id="298008393" lat="43.5035031" lon="5.4454927"/>
+  <node id="298008396" lat="43.5018138" lon="5.4431004"/>
+  <node id="298008398" lat="43.4998893" lon="5.4403375"/>
+  <node id="822278440" lat="43.5032470" lon="5.4451315"/>
+  <node id="298008386" lat="43.5058759" lon="5.4479044"/>
+  <node id="298008387" lat="43.5050724" lon="5.4471561"/>
+  <node id="298008389" lat="43.5042986" lon="5.4464519"/>
+  <node id="4108458717" lat="43.5060467" lon="5.4480869"/>
+  <node id="4108458719" lat="43.5056872" lon="5.4477203"/>
+  <node id="260037668" lat="43.5110730" lon="5.4065803"/>
+  <node id="260037669" lat="43.5110068" lon="5.4063032"/>
+  <node id="270923795" lat="43.5104438" lon="5.4013969"/>
+  <node id="270923796" lat="43.5104563" lon="5.4021436"/>
+  <node id="270923797" lat="43.5104936" lon="5.4030277"/>
+  <node id="270923798" lat="43.5105559" lon="5.4040233"/>
+  <node id="270923799" lat="43.5106492" lon="5.4046842"/>
+  <node id="270923800" lat="43.5107675" lon="5.4052850"/>
+  <node id="270923801" lat="43.5108920" lon="5.4059116"/>
+  <node id="260037659" lat="43.5114119" lon="5.4129026"/>
+  <node id="260037660" lat="43.5115740" lon="5.4116864"/>
+  <node id="260037661" lat="43.5116667" lon="5.4106787"/>
+  <node id="260037662" lat="43.5116952" lon="5.4101861"/>
+  <node id="260037663" lat="43.5116804" lon="5.4098985"/>
+  <node id="260037664" lat="43.5116478" lon="5.4095338"/>
+  <node id="260037665" lat="43.5116082" lon="5.4088516"/>
+  <node id="260037666" lat="43.5114545" lon="5.4080338"/>
+  <node id="260037667" lat="43.5113007" lon="5.4074313"/>
+  <node id="5847283569" lat="43.5113807" lon="5.4131853"/>
+  <node id="5847283570" lat="43.5113710" lon="5.4132729"/>
+  <node id="260037650" lat="43.5120447" lon="5.4197509"/>
+  <node id="260037651" lat="43.5117883" lon="5.4191167"/>
+  <node id="260037652" lat="43.5115740" lon="5.4184449"/>
+  <node id="260037653" lat="43.5113540" lon="5.4176920"/>
+  <node id="260037654" lat="43.5112323" lon="5.4170318"/>
+  <node id="260037655" lat="43.5111571" lon="5.4162210"/>
+  <node id="260037656" lat="43.5111281" lon="5.4153234"/>
+  <node id="260037657" lat="43.5111802" lon="5.4147674"/>
+  <node id="260037658" lat="43.5113250" lon="5.4136902"/>
+  <node id="260037649" lat="43.5123329" lon="5.4203441"/>
+  <node id="260037640" lat="43.5160820" lon="5.4262149"/>
+  <node id="260037641" lat="43.5155777" lon="5.4258418"/>
+  <node id="260037642" lat="43.5149284" lon="5.4252264"/>
+  <node id="260037643" lat="43.5141838" lon="5.4241627"/>
+  <node id="260037644" lat="43.5137238" lon="5.4232397"/>
+  <node id="260037645" lat="43.5135931" lon="5.4229515"/>
+  <node id="260037646" lat="43.5133216" lon="5.4222678"/>
+  <node id="260037647" lat="43.5130401" lon="5.4215908"/>
+  <node id="260037648" lat="43.5127284" lon="5.4210211"/>
+  <node id="4500359199" lat="43.5159918" lon="5.4261481"/>
+  <node id="4500359200" lat="43.5158522" lon="5.4260449"/>
+  <node id="5847283571" lat="43.5129569" lon="5.4214388"/>
+  <node id="5847283572" lat="43.5130112" lon="5.4215380"/>
+  <node id="260037634" lat="43.5189341" lon="5.4268446"/>
+  <node id="260037635" lat="43.5185718" lon="5.4268794"/>
+  <node id="260037636" lat="43.5181378" lon="5.4268882"/>
+  <node id="260037637" lat="43.5176951" lon="5.4268384"/>
+  <node id="260037638" lat="43.5171640" lon="5.4267335"/>
+  <node id="260037639" lat="43.5165800" lon="5.4265126"/>
+  <node id="298008377" lat="43.5078468" lon="5.4519827"/>
+  <node id="298008379" lat="43.5073673" lon="5.4506022"/>
+  <node id="298008382" lat="43.5070025" lon="5.4495726"/>
+  <node id="298008383" lat="43.5064860" lon="5.4486497"/>
+  <node id="298008384" lat="43.5062077" lon="5.4482758"/>
+  <node id="2271019413" lat="43.5074333" lon="5.4507812"/>
+  <node id="4108458718" lat="43.5072028" lon="5.4500942"/>
+  <node id="4108458720" lat="43.5067622" lon="5.4490979"/>
+  <node id="298008329" lat="43.5186071" lon="5.4487039"/>
+  <node id="298008332" lat="43.5176663" lon="5.4492262"/>
+  <node id="298008335" lat="43.5172896" lon="5.4495709"/>
+  <node id="298008340" lat="43.5168995" lon="5.4500471"/>
+  <node id="298008341" lat="43.5165307" lon="5.4506497"/>
+  <node id="298008344" lat="43.5158652" lon="5.4519410"/>
+  <node id="311511749" lat="43.5158077" lon="5.4520540"/>
+  <node id="1165997755" lat="43.5175039" lon="5.4493649"/>
+  <node id="1166026250" lat="43.5178539" lon="5.4490870"/>
+  <node id="1166026309" lat="43.5182226" lon="5.4488779"/>
+  <node id="1166026322" lat="43.5180266" lon="5.4489744"/>
+  <node id="4108454772" lat="43.5167130" lon="5.4503324"/>
+  <node id="4108454773" lat="43.5170857" lon="5.4498029"/>
+  <node id="260037620" lat="43.5255922" lon="5.4295172"/>
+  <node id="260037621" lat="43.5251927" lon="5.4288525"/>
+  <node id="260037622" lat="43.5248345" lon="5.4283841"/>
+  <node id="260037623" lat="43.5243178" lon="5.4278330"/>
+  <node id="260037624" lat="43.5240113" lon="5.4275781"/>
+  <node id="260037625" lat="43.5234068" lon="5.4271021"/>
+  <node id="260037626" lat="43.5226804" lon="5.4267157"/>
+  <node id="260037627" lat="43.5222960" lon="5.4265739"/>
+  <node id="260037628" lat="43.5216651" lon="5.4264305"/>
+  <node id="260037629" lat="43.5213137" lon="5.4264036"/>
+  <node id="260037630" lat="43.5206553" lon="5.4264348"/>
+  <node id="260037631" lat="43.5202383" lon="5.4265199"/>
+  <node id="260037632" lat="43.5199095" lon="5.4266125"/>
+  <node id="260037633" lat="43.5195737" lon="5.4267260"/>
+  <node id="6404416199" lat="43.5209749" lon="5.4264078"/>
+  <node id="6404416200" lat="43.5219792" lon="5.4264870"/>
+  <node id="6404416201" lat="43.5221362" lon="5.4265209"/>
+  <node id="260037616" lat="43.5267081" lon="5.4328512"/>
+  <node id="260037617" lat="43.5265841" lon="5.4321107"/>
+  <node id="260037618" lat="43.5262948" lon="5.4310843"/>
+  <node id="260037619" lat="43.5259711" lon="5.4302749"/>
+  <node id="265015400" lat="43.5311390" lon="5.4310571"/>
+  <node id="265015401" lat="43.5301060" lon="5.4317352"/>
+  <node id="265015402" lat="43.5294339" lon="5.4321815"/>
+  <node id="265015403" lat="43.5286549" lon="5.4327177"/>
+  <node id="265015404" lat="43.5284600" lon="5.4328950"/>
+  <node id="1837998124" lat="43.5317255" lon="5.4306514"/>
+  <node id="1837998140" lat="43.5318714" lon="5.4305534"/>
+  <node id="4089960407" lat="43.5289380" lon="5.4324979"/>
+  <node id="260037598" lat="43.5266890" lon="5.4359417"/>
+  <node id="260037599" lat="43.5266505" lon="5.4364019"/>
+  <node id="260037602" lat="43.5264189" lon="5.4375528"/>
+  <node id="260037613" lat="43.5268123" lon="5.4348681"/>
+  <node id="260037614" lat="43.5268251" lon="5.4338365"/>
+  <node id="260037615" lat="43.5267997" lon="5.4333933"/>
+  <node id="265015303" lat="43.5266946" lon="5.4362023"/>
+  <node id="265015405" lat="43.5279548" lon="5.4334463"/>
+  <node id="265015406" lat="43.5277584" lon="5.4337094"/>
+  <node id="265015407" lat="43.5275577" lon="5.4340190"/>
+  <node id="265015408" lat="43.5271701" lon="5.4347496"/>
+  <node id="265015409" lat="43.5268570" lon="5.4355724"/>
+  <node id="309451824" lat="43.5281382" lon="5.4332254"/>
+  <node id="309451834" lat="43.5268104" lon="5.4335764"/>
+  <node id="309452081" lat="43.5264719" lon="5.4372938"/>
+  <node id="1020348201" lat="43.5260826" lon="5.4388082"/>
+  <node id="1020348454" lat="43.5261949" lon="5.4384297"/>
+  <node id="2265046183" lat="43.5263138" lon="5.4379801"/>
+  <node id="2265046198" lat="43.5265653" lon="5.4366644"/>
+  <node id="2265046207" lat="43.5266149" lon="5.4363823"/>
+  <node id="2265046209" lat="43.5266450" lon="5.4361852"/>
+  <node id="4089960405" lat="43.5268249" lon="5.4345673"/>
+  <node id="4089960406" lat="43.5267636" lon="5.4354124"/>
+  <node id="4089960408" lat="43.5268327" lon="5.4342209"/>
+  <node id="4089960409" lat="43.5267880" lon="5.4351517"/>
+  <node id="4089960410" lat="43.5269951" lon="5.4351593"/>
+  <node id="4089960411" lat="43.5267298" lon="5.4356758"/>
+  <node id="4089960412" lat="43.5282920" lon="5.4330574"/>
+  <node id="4089960413" lat="43.5273510" lon="5.4343868"/>
+  <node id="4089960414" lat="43.5267656" lon="5.4358996"/>
+  <node id="260037604" lat="43.5254325" lon="5.4404124"/>
+  <node id="260037605" lat="43.5247329" lon="5.4419587"/>
+  <node id="260037606" lat="43.5241700" lon="5.4429287"/>
+  <node id="260037607" lat="43.5239901" lon="5.4432311"/>
+  <node id="260037608" lat="43.5233882" lon="5.4442046"/>
+  <node id="260037609" lat="43.5227461" lon="5.4451787"/>
+  <node id="299981350" lat="43.5235738" lon="5.4437738"/>
+  <node id="299981351" lat="43.5226915" lon="5.4451056"/>
+  <node id="299981353" lat="43.5238524" lon="5.4433405"/>
+  <node id="299981354" lat="43.5233950" lon="5.4437548"/>
+  <node id="299981355" lat="43.5225916" lon="5.4449421"/>
+  <node id="299981356" lat="43.5224383" lon="5.4451865"/>
+  <node id="1020348168" lat="43.5244641" lon="5.4424300"/>
+  <node id="2494360324" lat="43.5226683" lon="5.4450767"/>
+  <node id="2494360327" lat="43.5227693" lon="5.4452076"/>
+  <node id="2494360335" lat="43.5220425" lon="5.4457985"/>
+  <node id="2494360338" lat="43.5220694" lon="5.4458332"/>
+  <node id="2494360340" lat="43.5222223" lon="5.4454879"/>
+  <node id="2494360344" lat="43.5222456" lon="5.4455172"/>
+  <node id="2494360350" lat="43.5223202" lon="5.4456000"/>
+  <node id="2494360351" lat="43.5223457" lon="5.4456295"/>
+  <node id="2494360353" lat="43.5224614" lon="5.4452160"/>
+  <node id="2494360355" lat="43.5226019" lon="5.4448154"/>
+  <node id="2494360359" lat="43.5226152" lon="5.4449708"/>
+  <node id="2494360365" lat="43.5230265" lon="5.4441657"/>
+  <node id="2494360367" lat="43.5230550" lon="5.4442340"/>
+  <node id="2494360369" lat="43.5230779" lon="5.4442637"/>
+  <node id="2494360371" lat="43.5231616" lon="5.4439836"/>
+  <node id="2494360379" lat="43.5234149" lon="5.4437888"/>
+  <node id="2494360381" lat="43.5234151" lon="5.4442375"/>
+  <node id="2494360383" lat="43.5235505" lon="5.4437446"/>
+  <node id="2494360385" lat="43.5236207" lon="5.4435594"/>
+  <node id="2494360388" lat="43.5239653" lon="5.4432056"/>
+  <node id="2494360390" lat="43.5240189" lon="5.4432609"/>
+  <node id="2494360392" lat="43.5241978" lon="5.4429601"/>
+  <node id="2494360394" lat="43.5244926" lon="5.4424601"/>
+  <node id="2494360396" lat="43.5247605" lon="5.4419770"/>
+  <node id="4108453337" lat="43.5222905" lon="5.4459290"/>
+  <node id="4108453339" lat="43.5219793" lon="5.4459988"/>
+  <node id="4108453342" lat="43.5222727" lon="5.4458917"/>
+  <node id="4108453344" lat="43.5219665" lon="5.4459630"/>
+  <node id="260037610" lat="43.5220130" lon="5.4462567"/>
+  <node id="298008324" lat="43.5208585" lon="5.4474815"/>
+  <node id="298008325" lat="43.5203812" lon="5.4478673"/>
+  <node id="298008327" lat="43.5194285" lon="5.4483709"/>
+  <node id="299650504" lat="43.5212526" lon="5.4470985"/>
+  <node id="299650505" lat="43.5211126" lon="5.4472426"/>
+  <node id="299981357" lat="43.5216844" lon="5.4466493"/>
+  <node id="299981358" lat="43.5219615" lon="5.4461913"/>
+  <node id="299981359" lat="43.5215369" lon="5.4467217"/>
+  <node id="299981360" lat="43.5218544" lon="5.4462277"/>
+  <node id="304002567" lat="43.5200320" lon="5.4480799"/>
+  <node id="304002572" lat="43.5198519" lon="5.4481758"/>
+  <node id="2494360328" lat="43.5219411" lon="5.4461602"/>
+  <node id="2494360336" lat="43.5220291" lon="5.4462837"/>
+  <node id="4108453338" lat="43.5218507" lon="5.4463434"/>
+  <node id="4108453343" lat="43.5216919" lon="5.4465038"/>
+  <node id="4108453345" lat="43.5218001" lon="5.4463302"/>
+  <node id="4108453346" lat="43.5219061" lon="5.4463917"/>
+  <node id="4108453347" lat="43.5221473" lon="5.4460730"/>
+  <node id="4108453348" lat="43.5221613" lon="5.4461162"/>
+  <node id="4108453349" lat="43.5219036" lon="5.4464225"/>
+  <node id="4108454771" lat="43.5205807" lon="5.4477183"/>
+  <node id="4108454774" lat="43.5214547" lon="5.4468940"/>
+  <node id="4108454775" lat="43.5213724" lon="5.4469456"/>
+  <node id="5842445451" lat="43.5217022" lon="5.4465352"/>
+  <node id="5842445452" lat="43.5212507" lon="5.4470948"/>
+  <node id="5842445453" lat="43.5212188" lon="5.4471333"/>
+  <node id="5842445454" lat="43.5213531" lon="5.4469711"/>
+  <node id="260037603" lat="43.5258231" lon="5.4395112"/>
+  <node id="265015317" lat="43.5516172" lon="5.3925281"/>
+  <node id="265015318" lat="43.5510760" lon="5.3926147"/>
+  <node id="265015319" lat="43.5505582" lon="5.3927920"/>
+  <node id="265015320" lat="43.5502423" lon="5.3929354"/>
+  <node id="265015321" lat="43.5494070" lon="5.3934652"/>
+  <node id="1174497888" lat="43.5493373" lon="5.3935063"/>
+  <node id="1877971785" lat="43.5498233" lon="5.3931959"/>
+  <node id="1877971786" lat="43.5508212" lon="5.3926857"/>
+  <node id="1877971787" lat="43.5513465" lon="5.3925632"/>
+  <node id="1877971788" lat="43.5514940" lon="5.3925406"/>
+  <node id="1877971789" lat="43.5517617" lon="5.3925131"/>
+  <node id="1877971790" lat="43.5519042" lon="5.3925106"/>
+  <node id="265015322" lat="43.5486657" lon="5.3939440"/>
+  <node id="265015323" lat="43.5479168" lon="5.3944615"/>
+  <node id="265015324" lat="43.5475217" lon="5.3947902"/>
+  <node id="265015325" lat="43.5472978" lon="5.3950340"/>
+  <node id="265015326" lat="43.5469462" lon="5.3954599"/>
+  <node id="265015328" lat="43.5465569" lon="5.3960725"/>
+  <node id="265015329" lat="43.5463765" lon="5.3964158"/>
+  <node id="265015330" lat="43.5460592" lon="5.3971969"/>
+  <node id="265015331" lat="43.5458539" lon="5.3978320"/>
+  <node id="265015332" lat="43.5457810" lon="5.3982111"/>
+  <node id="265015333" lat="43.5456859" lon="5.3987247"/>
+  <node id="265015334" lat="43.5456237" lon="5.3993169"/>
+  <node id="265015335" lat="43.5456213" lon="5.3999017"/>
+  <node id="1877971784" lat="43.5483101" lon="5.3941814"/>
+  <node id="265015310" lat="43.5548181" lon="5.3935384"/>
+  <node id="265015311" lat="43.5543330" lon="5.3933292"/>
+  <node id="265015312" lat="43.5537871" lon="5.3930534"/>
+  <node id="265015313" lat="43.5534687" lon="5.3928910"/>
+  <node id="265015314" lat="43.5528153" lon="5.3926340"/>
+  <node id="265015315" lat="43.5523609" lon="5.3925449"/>
+  <node id="265015316" lat="43.5521520" lon="5.3925102"/>
+  <node id="1877971791" lat="43.5520268" lon="5.3925081"/>
+  <node id="1877971792" lat="43.5525570" lon="5.3925732"/>
+  <node id="265015304" lat="43.5575960" lon="5.3940080"/>
+  <node id="265015305" lat="43.5571855" lon="5.3938707"/>
+  <node id="265015306" lat="43.5567837" lon="5.3938177"/>
+  <node id="265015307" lat="43.5563793" lon="5.3937808"/>
+  <node id="265015308" lat="43.5559762" lon="5.3937658"/>
+  <node id="265015309" lat="43.5553554" lon="5.3936862"/>
+  <node id="1877971793" lat="43.5550882" lon="5.3936311"/>
+  <node id="1877971794" lat="43.5556384" lon="5.3937362"/>
+  <node id="1877971795" lat="43.5569691" lon="5.3938387"/>
+  <node id="1877971796" lat="43.5574243" lon="5.3939363"/>
+  <node id="265014985" lat="43.5643591" lon="5.3970915"/>
+  <node id="265015348" lat="43.5453500" lon="5.4082691"/>
+  <node id="265015349" lat="43.5452007" lon="5.4086725"/>
+  <node id="265015350" lat="43.5450140" lon="5.4090759"/>
+  <node id="265015351" lat="43.5447154" lon="5.4096509"/>
+  <node id="265015352" lat="43.5444292" lon="5.4100200"/>
+  <node id="265015353" lat="43.5441928" lon="5.4103290"/>
+  <node id="265015354" lat="43.5438880" lon="5.4106552"/>
+  <node id="265015355" lat="43.5434774" lon="5.4110414"/>
+  <node id="265015356" lat="43.5431290" lon="5.4113933"/>
+  <node id="265015357" lat="43.5422019" lon="5.4123203"/>
+  <node id="265015358" lat="43.5415673" lon="5.4129125"/>
+  <node id="265015375" lat="43.5387302" lon="5.4199935"/>
+  <node id="265015376" lat="43.5384751" lon="5.4205257"/>
+  <node id="265015377" lat="43.5382760" lon="5.4208604"/>
+  <node id="265015378" lat="43.5379235" lon="5.4213156"/>
+  <node id="265015379" lat="43.5376165" lon="5.4216758"/>
+  <node id="265015380" lat="43.5371560" lon="5.4221736"/>
+  <node id="265015381" lat="43.5366334" lon="5.4228002"/>
+  <node id="265015383" lat="43.5363534" lon="5.4232208"/>
+  <node id="265015384" lat="43.5361045" lon="5.4235984"/>
+  <node id="265015385" lat="43.5359279" lon="5.4239056"/>
+  <node id="265015386" lat="43.5357166" lon="5.4243977"/>
+  <node id="265015387" lat="43.5355139" lon="5.4249795"/>
+  <node id="265015388" lat="43.5352124" lon="5.4260501"/>
+  <node id="2506393017" lat="43.5378700" lon="5.4213784"/>
+  <node id="265015359" lat="43.5412003" lon="5.4132816"/>
+  <node id="265015360" lat="43.5409203" lon="5.4135991"/>
+  <node id="265015361" lat="43.5405905" lon="5.4140455"/>
+  <node id="265015362" lat="43.5403541" lon="5.4144403"/>
+  <node id="265015363" lat="43.5401239" lon="5.4149209"/>
+  <node id="265015364" lat="43.5399746" lon="5.4152643"/>
+  <node id="265015365" lat="43.5398377" lon="5.4156934"/>
+  <node id="265015366" lat="43.5397190" lon="5.4162306"/>
+  <node id="265015367" lat="43.5395639" lon="5.4168521"/>
+  <node id="265015368" lat="43.5394644" lon="5.4173757"/>
+  <node id="265015369" lat="43.5393648" lon="5.4179164"/>
+  <node id="265015370" lat="43.5392964" lon="5.4182855"/>
+  <node id="265015371" lat="43.5391906" lon="5.4186975"/>
+  <node id="265015372" lat="43.5390973" lon="5.4190923"/>
+  <node id="265015373" lat="43.5389853" lon="5.4194356"/>
+  <node id="265015374" lat="43.5388671" lon="5.4197360"/>
+  <node id="265015336" lat="43.5456412" lon="5.4003580"/>
+  <node id="265015337" lat="43.5456960" lon="5.4009513"/>
+  <node id="265015338" lat="43.5458279" lon="5.4019477"/>
+  <node id="265015339" lat="43.5459037" lon="5.4025785"/>
+  <node id="265015340" lat="43.5459472" lon="5.4030677"/>
+  <node id="265015341" lat="43.5459597" lon="5.4035312"/>
+  <node id="265015342" lat="43.5459472" lon="5.4039861"/>
+  <node id="265015343" lat="43.5459223" lon="5.4044582"/>
+  <node id="265015344" lat="43.5458352" lon="5.4053337"/>
+  <node id="1877971775" lat="43.5456664" lon="5.4006519"/>
+  <node id="1877971778" lat="43.5457614" lon="5.4014172"/>
+  <node id="265015345" lat="43.5456673" lon="5.4068357"/>
+  <node id="265015346" lat="43.5455740" lon="5.4074451"/>
+  <node id="265015347" lat="43.5454682" lon="5.4079086"/>
+  <node id="265015389" lat="43.5349998" lon="5.4267791"/>
+  <node id="265015390" lat="43.5348351" lon="5.4272205"/>
+  <node id="265015391" lat="43.5347045" lon="5.4275466"/>
+  <node id="265015392" lat="43.5345489" lon="5.4278299"/>
+  <node id="265015393" lat="43.5343809" lon="5.4281818"/>
+  <node id="265015394" lat="43.5341756" lon="5.4285079"/>
+  <node id="265015395" lat="43.5340013" lon="5.4287740"/>
+  <node id="265015396" lat="43.5337151" lon="5.4291002"/>
+  <node id="265015397" lat="43.5334600" lon="5.4293834"/>
+  <node id="265015398" lat="43.5328440" lon="5.4298984"/>
+  <node id="265015399" lat="43.5323337" lon="5.4302503"/>
+  <node id="302861871" lat="43.5330462" lon="5.4297567"/>
+  <node id="302861872" lat="43.5326484" lon="5.4300319"/>
+  <node id="303505306" lat="43.4536220" lon="5.4547569"/>
+  <node id="303505307" lat="43.4531799" lon="5.4539911"/>
+  <node id="303505309" lat="43.4528448" lon="5.4535963"/>
+  <node id="303505310" lat="43.4524942" lon="5.4532683"/>
+  <node id="303505311" lat="43.4518319" lon="5.4527270"/>
+  <node id="1147132938" lat="43.4534060" lon="5.4543557"/>
+  <node id="2494946656" lat="43.4526664" lon="5.4534084"/>
+  <node id="2494946659" lat="43.4531065" lon="5.4540290"/>
+  <node id="2494946662" lat="43.4531585" lon="5.4542415"/>
+  <node id="2494946665" lat="43.4532920" lon="5.4542773"/>
+  <node id="2494946667" lat="43.4534808" lon="5.4546138"/>
+  <node id="2494946669" lat="43.4534860" lon="5.4548120"/>
+  <node id="303505304" lat="43.4539766" lon="5.4557082"/>
+  <node id="1147132793" lat="43.4542590" lon="5.4567510"/>
+  <node id="1147132877" lat="43.4537976" lon="5.4551912"/>
+  <node id="2494946675" lat="43.4536662" lon="5.4551939"/>
+  <node id="2494946680" lat="43.4537321" lon="5.4551748"/>
+  <node id="2494946688" lat="43.4538118" lon="5.4555686"/>
+  <node id="2494946690" lat="43.4539556" lon="5.4558431"/>
+  <node id="2494946692" lat="43.4541069" lon="5.4565837"/>
+  <node id="2494946694" lat="43.4542039" lon="5.4567556"/>
+  <node id="2494946698" lat="43.4543269" lon="5.4574597"/>
+  <node id="2494946702" lat="43.4543467" lon="5.4572816"/>
+  <node id="2494946708" lat="43.4544412" lon="5.4578984"/>
+  <node id="2494946711" lat="43.4544563" lon="5.4575443"/>
+  <node id="2494946719" lat="43.4545470" lon="5.4583047"/>
+  <node id="2494946721" lat="43.4545572" lon="5.4588042"/>
+  <node id="2494946723" lat="43.4545643" lon="5.4580828"/>
+  <node id="2494946729" lat="43.4545805" lon="5.4584951"/>
+  <node id="2494946732" lat="43.4545778" lon="5.4590355"/>
+  <node id="2494946736" lat="43.4546033" lon="5.4580270"/>
+  <node id="2494946738" lat="43.4546037" lon="5.4591163"/>
+  <node id="2494946740" lat="43.4546082" lon="5.4587917"/>
+  <node id="2494946742" lat="43.4546282" lon="5.4586086"/>
+  <node id="2494946748" lat="43.4546514" lon="5.4589468"/>
+  <node id="2494946750" lat="43.4546629" lon="5.4591125"/>
+  <node id="2494946752" lat="43.4546806" lon="5.4583939"/>
+  <node id="2494946758" lat="43.4546965" lon="5.4590546"/>
+  <node id="2494946763" lat="43.4547237" lon="5.4589659"/>
+  <node id="2494946776" lat="43.4547957" lon="5.4585469"/>
+  <node id="2494946782" lat="43.4548381" lon="5.4588156"/>
+  <node id="2494946784" lat="43.4548382" lon="5.4589967"/>
+  <node id="2494946797" lat="43.4549293" lon="5.4590291"/>
+  <node id="5694322716" lat="43.4545768" lon="5.4589243"/>
+  <node id="5694322882" lat="43.4546294" lon="5.4591107"/>
+  <node id="303554306" lat="43.4580138" lon="5.4655198"/>
+  <node id="1147133173" lat="43.4580332" lon="5.4654744"/>
+  <node id="1166603778" lat="43.4548618" lon="5.4606268"/>
+  <node id="2494946571" lat="43.4562158" lon="5.4627851"/>
+  <node id="2494946578" lat="43.4562962" lon="5.4627365"/>
+  <node id="2494946673" lat="43.4536863" lon="5.4610176"/>
+  <node id="2494946677" lat="43.4537465" lon="5.4610321"/>
+  <node id="2494946696" lat="43.4543035" lon="5.4602118"/>
+  <node id="2494946700" lat="43.4543379" lon="5.4602552"/>
+  <node id="2494946706" lat="43.4544134" lon="5.4600376"/>
+  <node id="2494946713" lat="43.4544574" lon="5.4600643"/>
+  <node id="2494946715" lat="43.4544927" lon="5.4597563"/>
+  <node id="2494946717" lat="43.4545474" lon="5.4597307"/>
+  <node id="2494946725" lat="43.4545910" lon="5.4597642"/>
+  <node id="2494946727" lat="43.4545753" lon="5.4593959"/>
+  <node id="2494946734" lat="43.4545825" lon="5.4595984"/>
+  <node id="2494946744" lat="43.4546460" lon="5.4594521"/>
+  <node id="2494946746" lat="43.4546274" lon="5.4592956"/>
+  <node id="2494946754" lat="43.4546813" lon="5.4594418"/>
+  <node id="2494946756" lat="43.4546865" lon="5.4598452"/>
+  <node id="2494946761" lat="43.4547087" lon="5.4594484"/>
+  <node id="2494946765" lat="43.4547350" lon="5.4600290"/>
+  <node id="2494946767" lat="43.4547364" lon="5.4593195"/>
+  <node id="2494946769" lat="43.4547524" lon="5.4605947"/>
+  <node id="2494946771" lat="43.4547763" lon="5.4593252"/>
+  <node id="2494946774" lat="43.4547922" lon="5.4606091"/>
+  <node id="2494946778" lat="43.4547988" lon="5.4595773"/>
+  <node id="2494946780" lat="43.4548300" lon="5.4603865"/>
+  <node id="2494946786" lat="43.4548456" lon="5.4601860"/>
+  <node id="2494946788" lat="43.4548498" lon="5.4596948"/>
+  <node id="2494946791" lat="43.4548537" lon="5.4593837"/>
+  <node id="2494946793" lat="43.4548832" lon="5.4593524"/>
+  <node id="2494946795" lat="43.4548923" lon="5.4601192"/>
+  <node id="2494946799" lat="43.4549318" lon="5.4591900"/>
+  <node id="2494946802" lat="43.4549360" lon="5.4617477"/>
+  <node id="2494946804" lat="43.4549490" lon="5.4597632"/>
+  <node id="2494946806" lat="43.4549507" lon="5.4601689"/>
+  <node id="2494946808" lat="43.4549797" lon="5.4601404"/>
+  <node id="2494946810" lat="43.4549807" lon="5.4615633"/>
+  <node id="2494946812" lat="43.4550496" lon="5.4594765"/>
+  <node id="2494946814" lat="43.4550500" lon="5.4618378"/>
+  <node id="2494946816" lat="43.4550555" lon="5.4591629"/>
+  <node id="2494946818" lat="43.4550565" lon="5.4594097"/>
+  <node id="2494946820" lat="43.4550660" lon="5.4621654"/>
+  <node id="2494946823" lat="43.4550686" lon="5.4593550"/>
+  <node id="2494946825" lat="43.4550704" lon="5.4604290"/>
+  <node id="2494946827" lat="43.4550808" lon="5.4599467"/>
+  <node id="2494946829" lat="43.4551081" lon="5.4611286"/>
+  <node id="2494946831" lat="43.4551137" lon="5.4602451"/>
+  <node id="2494946833" lat="43.4551194" lon="5.4606586"/>
+  <node id="2494946835" lat="43.4551223" lon="5.4604530"/>
+  <node id="2494946837" lat="43.4551255" lon="5.4608494"/>
+  <node id="2494946839" lat="43.4551598" lon="5.4608848"/>
+  <node id="2494946841" lat="43.4551601" lon="5.4595720"/>
+  <node id="2494946843" lat="43.4551740" lon="5.4612862"/>
+  <node id="2494946846" lat="43.4551757" lon="5.4617015"/>
+  <node id="2494946848" lat="43.4551899" lon="5.4598178"/>
+  <node id="2494946850" lat="43.4551905" lon="5.4611379"/>
+  <node id="2494946852" lat="43.4552135" lon="5.4609143"/>
+  <node id="2494946856" lat="43.4552235" lon="5.4617776"/>
+  <node id="2494946859" lat="43.4552281" lon="5.4604933"/>
+  <node id="2494946862" lat="43.4552418" lon="5.4597656"/>
+  <node id="2494946865" lat="43.4552510" lon="5.4624202"/>
+  <node id="2494946868" lat="43.4552517" lon="5.4616527"/>
+  <node id="2494946870" lat="43.4552537" lon="5.4621216"/>
+  <node id="2494946873" lat="43.4552772" lon="5.4612384"/>
+  <node id="2494946875" lat="43.4552823" lon="5.4620460"/>
+  <node id="2494946877" lat="43.4552928" lon="5.4598928"/>
+  <node id="2494946879" lat="43.4552964" lon="5.4596358"/>
+  <node id="2494946881" lat="43.4553129" lon="5.4611238"/>
+  <node id="2494946883" lat="43.4553142" lon="5.4620291"/>
+  <node id="2494946885" lat="43.4553338" lon="5.4606103"/>
+  <node id="2494946887" lat="43.4553594" lon="5.4625179"/>
+  <node id="2494946890" lat="43.4553826" lon="5.4599309"/>
+  <node id="2494946892" lat="43.4553877" lon="5.4623009"/>
+  <node id="2494946894" lat="43.4553938" lon="5.4624511"/>
+  <node id="2494946896" lat="43.4554229" lon="5.4598888"/>
+  <node id="2494946898" lat="43.4554359" lon="5.4602501"/>
+  <node id="2494946900" lat="43.4554412" lon="5.4612023"/>
+  <node id="2494946902" lat="43.4554624" lon="5.4630098"/>
+  <node id="2494946905" lat="43.4554904" lon="5.4619658"/>
+  <node id="2494946907" lat="43.4555431" lon="5.4603630"/>
+  <node id="2494946908" lat="43.4555753" lon="5.4620549"/>
+  <node id="2494946909" lat="43.4555885" lon="5.4612190"/>
+  <node id="2494946910" lat="43.4555913" lon="5.4610968"/>
+  <node id="2494946911" lat="43.4555996" lon="5.4603066"/>
+  <node id="2494946912" lat="43.4556005" lon="5.4620261"/>
+  <node id="2494946913" lat="43.4556011" lon="5.4609939"/>
+  <node id="2494946914" lat="43.4556040" lon="5.4608373"/>
+  <node id="2494946915" lat="43.4556176" lon="5.4632220"/>
+  <node id="2494946916" lat="43.4556318" lon="5.4617871"/>
+  <node id="2494946917" lat="43.4556335" lon="5.4614911"/>
+  <node id="2494946918" lat="43.4556487" lon="5.4620072"/>
+  <node id="2494946919" lat="43.4556526" lon="5.4616749"/>
+  <node id="2494946920" lat="43.4556583" lon="5.4607326"/>
+  <node id="2494946921" lat="43.4556622" lon="5.4632123"/>
+  <node id="2494946922" lat="43.4556977" lon="5.4631887"/>
+  <node id="2494946923" lat="43.4557149" lon="5.4612813"/>
+  <node id="2494946924" lat="43.4557330" lon="5.4607076"/>
+  <node id="2494946925" lat="43.4557330" lon="5.4610095"/>
+  <node id="2494946926" lat="43.4557746" lon="5.4626564"/>
+  <node id="2494946927" lat="43.4557928" lon="5.4617062"/>
+  <node id="2494946928" lat="43.4558016" lon="5.4618611"/>
+  <node id="2494946929" lat="43.4558058" lon="5.4609845"/>
+  <node id="2494946931" lat="43.4558431" lon="5.4626849"/>
+  <node id="2494946933" lat="43.4558790" lon="5.4626519"/>
+  <node id="2494946934" lat="43.4558934" lon="5.4624555"/>
+  <node id="2494946935" lat="43.4559021" lon="5.4622382"/>
+  <node id="2494946937" lat="43.4559288" lon="5.4614619"/>
+  <node id="2494946938" lat="43.4559315" lon="5.4624244"/>
+  <node id="2494946940" lat="43.4559450" lon="5.4619108"/>
+  <node id="2494946941" lat="43.4559661" lon="5.4622449"/>
+  <node id="2494946944" lat="43.4560293" lon="5.4618820"/>
+  <node id="2494946945" lat="43.4560579" lon="5.4631551"/>
+  <node id="2494946946" lat="43.4560724" lon="5.4623564"/>
+  <node id="2494946949" lat="43.4561037" lon="5.4626726"/>
+  <node id="2494946950" lat="43.4561387" lon="5.4631971"/>
+  <node id="2494946951" lat="43.4561593" lon="5.4623260"/>
+  <node id="2494946957" lat="43.4562451" lon="5.4631122"/>
+  <node id="2494946962" lat="43.4563786" lon="5.4635415"/>
+  <node id="2494946963" lat="43.4563837" lon="5.4637734"/>
+  <node id="2494946964" lat="43.4564179" lon="5.4632763"/>
+  <node id="2494946965" lat="43.4564463" lon="5.4637609"/>
+  <node id="2494946971" lat="43.4564867" lon="5.4632068"/>
+  <node id="2494946975" lat="43.4565519" lon="5.4638590"/>
+  <node id="2494946976" lat="43.4565622" lon="5.4637590"/>
+  <node id="2494946977" lat="43.4566115" lon="5.4636662"/>
+  <node id="2494946978" lat="43.4566142" lon="5.4641338"/>
+  <node id="2494946980" lat="43.4566825" lon="5.4636030"/>
+  <node id="2494946982" lat="43.4567134" lon="5.4641744"/>
+  <node id="2494946984" lat="43.4568134" lon="5.4642150"/>
+  <node id="2494946985" lat="43.4568308" lon="5.4640611"/>
+  <node id="2494946986" lat="43.4568870" lon="5.4639969"/>
+  <node id="2494946987" lat="43.4569900" lon="5.4645418"/>
+  <node id="2494946988" lat="43.4569971" lon="5.4645993"/>
+  <node id="2494946989" lat="43.4570038" lon="5.4643515"/>
+  <node id="2494946990" lat="43.4570533" lon="5.4643000"/>
+  <node id="2494946991" lat="43.4572904" lon="5.4648637"/>
+  <node id="2494946992" lat="43.4573027" lon="5.4649390"/>
+  <node id="2494946993" lat="43.4573460" lon="5.4648194"/>
+  <node id="2494946994" lat="43.4573496" lon="5.4647559"/>
+  <node id="2494946995" lat="43.4576364" lon="5.4652414"/>
+  <node id="2494946996" lat="43.4576675" lon="5.4651798"/>
+  <node id="2494946997" lat="43.4577533" lon="5.4652190"/>
+  <node id="2494946998" lat="43.4578166" lon="5.4654562"/>
+  <node id="2494946999" lat="43.4580575" lon="5.4656519"/>
+  <node id="5694320326" lat="43.4549058" lon="5.4609788"/>
+  <node id="5694321009" lat="43.4549269" lon="5.4611430"/>
+  <node id="5694321010" lat="43.4550339" lon="5.4606344"/>
+  <node id="5694321011" lat="43.4545944" lon="5.4592636"/>
+  <node id="5694321012" lat="43.4544834" lon="5.4599047"/>
+  <node id="5694321013" lat="43.4546606" lon="5.4592837"/>
+  <node id="5694322714" lat="43.4550840" lon="5.4609815"/>
+  <node id="5694322718" lat="43.4546138" lon="5.4594447"/>
+  <node id="5694322720" lat="43.4546265" lon="5.4596190"/>
+  <node id="5694322870" lat="43.4548817" lon="5.4607906"/>
+  <node id="5694322871" lat="43.4545428" lon="5.4595815"/>
+  <node id="5694322893" lat="43.4545330" lon="5.4599248"/>
+  <node id="298006570" lat="43.4661235" lon="5.4577081"/>
+  <node id="298008452" lat="43.4664545" lon="5.4558141"/>
+  <node id="298008454" lat="43.4663250" lon="5.4563494"/>
+  <node id="298008456" lat="43.4660537" lon="5.4586075"/>
+  <node id="2494947029" lat="43.4660135" lon="5.4586016"/>
+  <node id="2494947030" lat="43.4660835" lon="5.4577003"/>
+  <node id="2494947031" lat="43.4661663" lon="5.4570551"/>
+  <node id="2494947032" lat="43.4662060" lon="5.4570661"/>
+  <node id="2494947033" lat="43.4662860" lon="5.4563343"/>
+  <node id="2494947034" lat="43.4664165" lon="5.4557951"/>
+  <node id="2494947035" lat="43.4665755" lon="5.4552373"/>
+  <node id="2494947036" lat="43.4666128" lon="5.4552589"/>
+  <node id="298006572" lat="43.4659852" lon="5.4595172"/>
+  <node id="298006574" lat="43.4658758" lon="5.4605281"/>
+  <node id="298006578" lat="43.4644785" lon="5.4642427"/>
+  <node id="298008457" lat="43.4656898" lon="5.4614686"/>
+  <node id="298008458" lat="43.4652335" lon="5.4628370"/>
+  <node id="298008460" lat="43.4638421" lon="5.4650288"/>
+  <node id="1147133168" lat="43.4634772" lon="5.4653494"/>
+  <node id="2396842711" lat="43.4632191" lon="5.4655590"/>
+  <node id="2494947006" lat="43.4629501" lon="5.4656834"/>
+  <node id="2494947007" lat="43.4631997" lon="5.4655101"/>
+  <node id="2494947008" lat="43.4634560" lon="5.4653019"/>
+  <node id="2494947009" lat="43.4638181" lon="5.4649838"/>
+  <node id="2494947010" lat="43.4641411" lon="5.4646085"/>
+  <node id="2494947011" lat="43.4641681" lon="5.4646499"/>
+  <node id="2494947012" lat="43.4644491" lon="5.4642044"/>
+  <node id="2494947013" lat="43.4647353" lon="5.4637388"/>
+  <node id="2494947014" lat="43.4647668" lon="5.4637737"/>
+  <node id="2494947015" lat="43.4649352" lon="5.4633778"/>
+  <node id="2494947016" lat="43.4649684" lon="5.4634098"/>
+  <node id="2494947017" lat="43.4651986" lon="5.4628089"/>
+  <node id="2494947018" lat="43.4653297" lon="5.4624702"/>
+  <node id="2494947019" lat="43.4653656" lon="5.4624958"/>
+  <node id="2494947020" lat="43.4654890" lon="5.4620311"/>
+  <node id="2494947021" lat="43.4655261" lon="5.4620537"/>
+  <node id="2494947022" lat="43.4656517" lon="5.4614500"/>
+  <node id="2494947023" lat="43.4657574" lon="5.4609976"/>
+  <node id="2494947024" lat="43.4657964" lon="5.4610123"/>
+  <node id="2494947025" lat="43.4658361" lon="5.4605175"/>
+  <node id="2494947026" lat="43.4658837" lon="5.4601156"/>
+  <node id="2494947027" lat="43.4659237" lon="5.4601240"/>
+  <node id="2494947028" lat="43.4659451" lon="5.4595105"/>
+  <node id="5735997089" lat="43.4657334" lon="5.4611004"/>
+  <node id="5736016513" lat="43.4657742" lon="5.4611074"/>
+  <node id="5736016514" lat="43.4657421" lon="5.4612448"/>
+  <node id="5736016515" lat="43.4657049" lon="5.4612222"/>
+  <node id="298008464" lat="43.4592631" lon="5.4662552"/>
+  <node id="298008465" lat="43.4585940" lon="5.4659621"/>
+  <node id="303554221" lat="43.4582594" lon="5.4657385"/>
+  <node id="1147132759" lat="43.4582977" lon="5.4657286"/>
+  <node id="1147132817" lat="43.4586059" lon="5.4659086"/>
+  <node id="1147132866" lat="43.4592797" lon="5.4662052"/>
+  <node id="1147132882" lat="43.4589862" lon="5.4661018"/>
+  <node id="1147132926" lat="43.4595637" lon="5.4662947"/>
+  <node id="1147133036" lat="43.4598211" lon="5.4663560"/>
+  <node id="1147133040" lat="43.4595415" lon="5.4663427"/>
+  <node id="1147133063" lat="43.4598036" lon="5.4664032"/>
+  <node id="1147133077" lat="43.4600912" lon="5.4664043"/>
+  <node id="1147133078" lat="43.4600787" lon="5.4664449"/>
+  <node id="1147133113" lat="43.4589780" lon="5.4661441"/>
+  <node id="298006581" lat="43.4629674" lon="5.4657337"/>
+  <node id="298006582" lat="43.4625902" lon="5.4659643"/>
+  <node id="298006583" lat="43.4617205" lon="5.4663169"/>
+  <node id="298006586" lat="43.4604274" lon="5.4664849"/>
+  <node id="298008462" lat="43.4610910" lon="5.4664531"/>
+  <node id="303507746" lat="43.4620887" lon="5.4661936"/>
+  <node id="303511031" lat="43.4614690" lon="5.4665674"/>
+  <node id="303511032" lat="43.4624899" lon="5.4666161"/>
+  <node id="303511033" lat="43.4631988" lon="5.4666786"/>
+  <node id="303511034" lat="43.4641764" lon="5.4669021"/>
+  <node id="303511035" lat="43.4645772" lon="5.4670650"/>
+  <node id="303511036" lat="43.4648021" lon="5.4671729"/>
+  <node id="303511037" lat="43.4657767" lon="5.4678164"/>
+  <node id="303511038" lat="43.4667275" lon="5.4687646"/>
+  <node id="1147133001" lat="43.4604280" lon="5.4664316"/>
+  <node id="1147133046" lat="43.4662578" lon="5.4682546"/>
+  <node id="1147133126" lat="43.4653137" lon="5.4674926"/>
+  <node id="1147133171" lat="43.4636968" lon="5.4667721"/>
+  <node id="2494947000" lat="43.4610874" lon="5.4663976"/>
+  <node id="2494947001" lat="43.4614007" lon="5.4663392"/>
+  <node id="2494947002" lat="43.4614069" lon="5.4663943"/>
+  <node id="2494947003" lat="43.4617121" lon="5.4662624"/>
+  <node id="2494947004" lat="43.4620776" lon="5.4661400"/>
+  <node id="2494947005" lat="43.4625756" lon="5.4659122"/>
+  <node id="298008450" lat="43.4668207" lon="5.4546162"/>
+  <node id="2494947037" lat="43.4667845" lon="5.4545913"/>
+  <node id="2494947038" lat="43.4670207" lon="5.4540067"/>
+  <node id="2494947039" lat="43.4670555" lon="5.4540350"/>
+  <node id="2494947040" lat="43.4672537" lon="5.4534907"/>
+  <node id="2494947041" lat="43.4672880" lon="5.4535202"/>
+  <node id="303511039" lat="43.4675881" lon="5.4700048"/>
+  <node id="303511040" lat="43.4682343" lon="5.4715112"/>
+  <node id="1147133075" lat="43.4670416" lon="5.4691599"/>
+  <node id="1147133102" lat="43.4679604" lon="5.4707645"/>
+  <node id="303511041" lat="43.4686704" lon="5.4731849"/>
+  <node id="303511042" lat="43.4688386" lon="5.4745410"/>
+  <node id="303511043" lat="43.4691897" lon="5.4785908"/>
+  <node id="12156807" lat="43.4693560" lon="5.4806796"/>
+  <node id="303511044" lat="43.4695487" lon="5.4831756"/>
+  <node id="4502522306" lat="43.4692385" lon="5.4791584"/>
+  <node id="303511045" lat="43.4699598" lon="5.4884027"/>
+  <node id="5777040926" lat="43.4699655" lon="5.4884687"/>
+  <node id="5777042091" lat="43.4702356" lon="5.4915888"/>
+  <node id="5777042092" lat="43.4702104" lon="5.4912967"/>
+  <node id="303511046" lat="43.4705940" lon="5.4960364"/>
+  <node id="5777042094" lat="43.4703653" lon="5.4930864"/>
+  <node id="5777042096" lat="43.4707179" lon="5.4974972"/>
+  <node id="5777042107" lat="43.4707049" lon="5.4973351"/>
+  <node id="303511047" lat="43.4709876" lon="5.5004619"/>
+  <node id="303511048" lat="43.4712056" lon="5.5016807"/>
+  <node id="303511049" lat="43.4715233" lon="5.5028394"/>
+  <node id="303511050" lat="43.4726631" lon="5.5058349"/>
+  <node id="303511051" lat="43.4730244" lon="5.5068649"/>
+  <node id="303511052" lat="43.4731614" lon="5.5074056"/>
+  <node id="303511053" lat="43.4732860" lon="5.5082382"/>
+  <node id="303511054" lat="43.4732736" lon="5.5091651"/>
+  <node id="303511055" lat="43.4731863" lon="5.5098947"/>
+  <node id="303511056" lat="43.4729061" lon="5.5108903"/>
+  <node id="303511057" lat="43.4725074" lon="5.5117486"/>
+  <node id="303511059" lat="43.4713800" lon="5.5136455"/>
+  <node id="303511060" lat="43.4710623" lon="5.5143321"/>
+  <node id="303511061" lat="43.4708069" lon="5.5151132"/>
+  <node id="303511062" lat="43.4706450" lon="5.5159372"/>
+  <node id="303511063" lat="43.4706201" lon="5.5167783"/>
+  <node id="303511064" lat="43.4706450" lon="5.5176280"/>
+  <node id="303511065" lat="43.4709751" lon="5.5214303"/>
+  <node id="6431444296" lat="43.4709025" lon="5.5206360"/>
+  <node id="303511066" lat="43.4713551" lon="5.5261768"/>
+  <node id="303511067" lat="43.4716416" lon="5.5299705"/>
+  <node id="303511068" lat="43.4716478" lon="5.5308631"/>
+  <node id="303511069" lat="43.4715918" lon="5.5316184"/>
+  <node id="303511070" lat="43.4714361" lon="5.5324424"/>
+  <node id="303511071" lat="43.4706325" lon="5.5358070"/>
+  <node id="303511072" lat="43.4704893" lon="5.5366739"/>
+  <node id="303511073" lat="43.4703647" lon="5.5374378"/>
+  <node id="303511074" lat="43.4702752" lon="5.5386346"/>
+  <node id="303511075" lat="43.4702398" lon="5.5405448"/>
+  <node id="303511076" lat="43.4704424" lon="5.5426169"/>
+  <node id="1577480480" lat="43.4705280" lon="5.5433341"/>
+  <node id="1577480481" lat="43.4705599" lon="5.5436322"/>
+  <node id="1577480482" lat="43.4705834" lon="5.5438947"/>
+  <node id="303511077" lat="43.4706306" lon="5.5447866"/>
+  <node id="1577480484" lat="43.4706175" lon="5.5443507"/>
+  <node id="1577488061" lat="43.4706376" lon="5.5451123"/>
+  <node id="298008359" lat="43.5126373" lon="5.4551514"/>
+  <node id="298008364" lat="43.5120587" lon="5.4552532"/>
+  <node id="298008365" lat="43.5117056" lon="5.4552580"/>
+  <node id="298008367" lat="43.5113393" lon="5.4552353"/>
+  <node id="298008368" lat="43.5107936" lon="5.4551157"/>
+  <node id="298008369" lat="43.5100751" lon="5.4547935"/>
+  <node id="298008371" lat="43.5093763" lon="5.4542758"/>
+  <node id="298008373" lat="43.5086849" lon="5.4535251"/>
+  <node id="298008374" lat="43.5082270" lon="5.4528066"/>
+  <node id="1557025948" lat="43.5097091" lon="5.4545378"/>
+  <node id="1557025964" lat="43.5104186" lon="5.4549556"/>
+  <node id="1557026012" lat="43.5123499" lon="5.4552129"/>
+  <node id="3329871454" lat="43.5121116" lon="5.4552390"/>
+  <node id="4108455921" lat="43.5090538" lon="5.4539534"/>
+  <node id="298008347" lat="43.5152279" lon="5.4531148"/>
+  <node id="298008350" lat="43.5149706" lon="5.4535037"/>
+  <node id="298008352" lat="43.5144798" lon="5.4540878"/>
+  <node id="298008355" lat="43.5135668" lon="5.4547867"/>
+  <node id="298008357" lat="43.5131144" lon="5.4550073"/>
+  <node id="303994779" lat="43.5141754" lon="5.4543744"/>
+  <node id="1557026023" lat="43.5128676" lon="5.4550949"/>
+  <node id="1557026026" lat="43.5138635" lon="5.4545983"/>
+  <node id="3329871455" lat="43.5146921" lon="5.4538521"/>
+  <node id="4108455922" lat="43.5154804" lon="5.4526803"/>
+
+</osm>
