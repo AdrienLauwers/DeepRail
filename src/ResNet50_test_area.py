@@ -23,12 +23,12 @@ print("Loaded model from disk")
  
 PATH = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-test_dir = os.path.join(os.path.join(PATH, 'DeepRailDataset'), 'test')
-test_rail_dir = os.path.join(test_dir, 'rail') 
-test_nonrail_dir = os.path.join(test_dir, 'nonrail')
+#test_dir = os.path.join(os.path.join(PATH, '../../DeepRailDataset'), 'test')
+#test_rail_dir = os.path.join(test_dir, 'rail')
+#test_nonrail_dir = os.path.join(test_dir, 'nonrail')
 
 test_analyse = os.path.join(os.path.join(os.path.join(PATH, 'DeepRailDataset'), 'analyse'), 'img5')
-
+print(test_analyse)
 test_images = []
 test_path = []
 
@@ -47,11 +47,13 @@ test_path = []
 #     test_images.append([np.array(img), [0, 1]])
 
 for i in tqdm(sorted(os.listdir(test_analyse))):
-    img_path = os.path.join(test_analyse, i)
-    test_path.append(img_path)
-    img = cv2.imread(img_path, cv2.IMREAD_COLOR)
-    img = cv2.resize(img, (224, 224))
-    test_images.append([np.array(img), [0, 1]])
+	img_path = os.path.join(test_analyse, i)
+	test_path.append(img_path)
+	img = cv2.imread(img_path, cv2.IMREAD_COLOR)
+	if img is None:
+		continue
+	img = cv2.resize(img, (224, 224))
+	test_images.append([np.array(img), [0, 1]])
 
 # random.shuffle(test_images)
 
@@ -60,11 +62,13 @@ test_label = np.array([i[1] for i in test_images])
 
 
 # evaluate loaded model on test data
+
 resnet50_model.compile(loss='binary_crossentropy', optimizer=keras.optimizers.Adam(lr=1e-3), metrics=['accuracy'])
 # score = resnet50_model.evaluate(test_img, test_label, verbose=1)
 # print("%s: %.2f%%" % (resnet50_model.metrics_names[1], score[1]*100))
 
 predicts = resnet50_model.predict(test_img, verbose=1).reshape((-1,))
+
 # equals = np.equal(np.around(predicts) != test_label)
 predicts_rounded = np.around(predicts)
 for i in range(int(len(predicts)//2)):
@@ -83,19 +87,19 @@ x_offset = 0
 y_offset = HEIGHT * 10
 
 for img in tiles:
-	if (predicts[cnt*2] > predicts[cnt*2+1]):
-		# im = cv2.imread(img)
-		# cv2.putText(img, predicts[cnt*2], (0,0), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,0,0), 2)
-		ImageDraw.Draw(img).text((0,0), str(predicts[cnt*2]), 'rgba(255, 0, 0, 255)')
-		# draw = ImageDraw.Draw(img)
-		# font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 30)
-		# draw.text((0, 0), str(predicts[cnt*2]),(255,0,0),font=font)
-
-	full_img.paste(img, (x_offset, y_offset))
-	x_offset += WIDTH
-	cnt += 1
-	if (cnt % 10 == 0):
-		x_offset = 0
-		y_offset -= HEIGHT
+  if (predicts[cnt*2] > predicts[cnt*2+1]):
+    overlay = img.copy()
+    cv2.rectangle(overlay, (0, 0), (236,236), (0, 0, 200), -1)
+    alpha = 0.15
+    image_new = cv2.addWeighted(overlay, alpha, img, 1 - alpha, 0)
+    texted_image =cv2.putText(img=np.copy(image_new), text=str("%.2f" % predicts[cnt*2]), org=(0,30),fontFace=2, fontScale=1.5, color=(255,0,0), thickness=2)
+    full_img.paste( Image.fromarray(texted_image), (x_offset, y_offset))
+  else:
+    full_img.paste( Image.fromarray(img), (x_offset, y_offset))
+  x_offset += WIDTH
+  cnt += 1
+  if (cnt % 10 == 0):
+    x_offset = 0
+    y_offset -= HEIGHT
 
 full_img.save("../../DeepRailDataset/analyse/img5/result.png", "PNG")
