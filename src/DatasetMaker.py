@@ -125,27 +125,33 @@ OFFSET = 0
 
 #non rail
 DISTANCE_RAIL = 0.5
-LAT_SOURCE = 51.2008
-LNG_SOURCE = 4.413
+LAT_SOURCE = 48.8566
+LNG_SOURCE = 2.3522
 
 # Charleroi 50.4097 4.4404
 # Bruxelles 50.8502 4.3416
 # Antwerpen 51.2008 4.413
-
-# Namur 50.4716 4.8631
-# Mons 50.4539 3.9476
-# La Louv 50.4725  4.1869
-
 # Liège 50.6373 5.5716
-CROPSIZE = SIZE/2
+# La Louv 50.4725 4.1869
+# Mons 50.4539 3.9476
+# Namur 50.4716 4.8631
+
+#Paris 48.8566 2.3522
+
+
+CROPSIZE = SIZE
 GLOBALSIZE = SIZE+MARGIN
 GLOBALSIZECROP =GLOBALSIZE+CROPSIZE
 
+#jemappeRail
+#monsRail
+#liegeRail
+
 API_keys = get_api_key()
 API_key = API_keys["GoogleMaps"]
-tree = ET.parse('../coords/romeRail.xml')
+tree = ET.parse('../coords/50,4,51,5.xml')
 root = tree.getroot()
 all_nodes, selected_nodes = get_nodes()
-generate_railimg(selected_nodes)
-#generate_nonrailimg(all_nodes)
+#generate_railimg(selected_nodes)
+generate_nonrailimg(all_nodes)
 
