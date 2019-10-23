@@ -25,8 +25,8 @@ if __name__ == "__main__":
 
     stride = 0.000314
     mid = stride/2
-    lat = 50.9002289
-    lng_ori = 4.7099859
+    lat = 50.6906239
+    lng_ori = 4.5731336
 
     for i in range(10):
         lng = lng_ori
@@ -42,7 +42,7 @@ if __name__ == "__main__":
             img = Image.open(BytesIO(response.content))
             w, h = img.size
             margin = 20
-            img.crop((margin, margin, w - margin, h - margin)).save("../../DeepRailDataset/analyse/a" + str(str(i)+str(j)).zfill(5) + ".png", "png")
+            img.crop((margin, margin, w - margin, h - margin)).save("../../DeepRailDataset/analyse/img4/limal" + str(str(i)+str(j)).zfill(5) + ".png", "png")
             print(lat,lng)
             lng += stride
         lat +=stride
