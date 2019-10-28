@@ -64,7 +64,6 @@ y_offset = HEIGHT * 9
 
 print(len(test_path))
 for img in tiles:
-  print(test_path[cnt])
   if (predicts[cnt*2] > predicts[cnt*2+1]):
     overlay = img.copy()
     cv2.rectangle(overlay, (0, 0), (256, 256), (0, 0, 200), -1)

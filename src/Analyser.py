@@ -34,8 +34,8 @@ if __name__ == "__main__":
     API_keys = get_api_key()
     API_key = API_keys["GoogleMaps"]
 
-    lat = 50.7605474
-    lng_ori = 4.4586163
+    lat = 51.1312697
+    lng_ori = 4.4782626
 
     dist_NS = 256 * meters_per_pixel_NS(lat, 20)
     dist_EW = 256 * meters_per_pixel_EW(20)
@@ -54,7 +54,7 @@ if __name__ == "__main__":
             img = Image.open(BytesIO(response.content))
             w, h = img.size
             margin = 20
-            img.crop((0, 0, w - margin, h - margin)).save("../../DeepRailDataset/analyse/img7/test" + str(str(i)+str(j)).zfill(5) + ".png", "png")
+            img.crop((0, 0, w - margin, h - margin)).save("../../DeepRailDataset/analyse/img8/test" + str(str(i)+str(j)).zfill(5) + ".png", "png")
             print(lat,lng)
             lng = get_next_coord(lng, dist_EW)
         lat = get_next_coord(lat, dist_NS)
